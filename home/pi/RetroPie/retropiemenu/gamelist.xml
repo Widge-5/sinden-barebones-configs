@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./filemanager.rp</path>
+		<name>File Manager</name>
+		<desc>Basic ASCII file manager for Linux allowing you to browse, copy, delete, and move files.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/filemanager.png</image>
+		<hidden>true</hidden>
+	</game>
+	<game>
+		<path>./esthemes.rp</path>
+		<name>ES Themes</name>
+		<desc>Install, uninstall, or update EmulationStation themes. Most themes can be previewed at https://retropie.org.uk/docs/Themes/.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/esthemes.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20211123T182428</lastplayed>
+		<hidden>true</hidden>
+	</game>
+	<game>
+		<path>./splashscreen.rp</path>
+		<name>Splash Screens</name>
+		<desc>Enable or disable the splashscreen on RetroPie boot. Choose a splashscreen, download new splashscreens, and return splashscreen to default.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/splashscreen.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20211123T181547</lastplayed>
+		<hidden>true</hidden>
+	</game>
+	<game>
+		<path>./configedit.rp</path>
+		<name>Configuration Editor</name>
+		<desc>Change common RetroArch options, and manually edit RetroArch configs, global configs, and non-RetroArch configs.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/configedit.png</image>
+		<hidden>true</hidden>
+		<playcount>1</playcount>
+		<lastplayed>20220216T095118</lastplayed>
+	</game>
+	<game>
+		<path>./runcommand.rp</path>
+		<name>Run Command Configuration</name>
+		<desc>Change what appears on the runcommand screen. Enable or disable the menu, enable or disable box art, and change CPU configuration.</desc>
+		<image>./icons/runcommand.png</image>
+		<hidden>true</hidden>
+		<playcount>7</playcount>
+		<lastplayed>20220312T035229</lastplayed>
+	</game>
+	<game>
+		<path>./joystick_selection.sh</path>
+		<name>Joystick Selection</name>
+		<desc>Select which joystick to use for RetroArch players 1-4 (global or system specific).</desc>
+		<image>./icons/joystick_selection.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20220623T181836</lastplayed>
+	</game>
+	<game>
+		<path>./retroarch.rp</path>
+		<name>Retroarch</name>
+		<desc>Launches the RetroArch GUI so you can change RetroArch options. Note: Changes will not be saved unless you have enabled the "Save Configuration On Exit" option.</desc>
+		<image>./icons/retroarch.png</image>
+		<hidden>true</hidden>
+		<playcount>12</playcount>
+		<lastplayed>20220630T123553</lastplayed>
+	</game>
+	<game>
+		<path>./raspiconfig.rp</path>
+		<name>Raspi-Config</name>
+		<desc>Change user password, boot options, internationalization, camera, add your Pi to Rastrack, overclock, overscan, memory split, SSH and more.</desc>
+		<image>./icons/raspiconfig.png</image>
+		<hidden>true</hidden>
+		<playcount>10</playcount>
+		<lastplayed>20220716T180024</lastplayed>
+	</game>
+	<game>
+		<path>./showip.rp</path>
+		<name>Show IP</name>
+		<desc>Displays your current IP address, as well as other information provided by the command "ip addr show."</desc>
+		<image>./icons/showip.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>26</playcount>
+		<lastplayed>20220805T150209</lastplayed>
+	</game>
+	<game>
+		<path>./bluetooth.rp</path>
+		<name>Bluetooth</name>
+		<desc>Register and connect to Bluetooth devices. Unregister and remove devices, and display registered and connected devices.</desc>
+		<image>./icons/bluetooth.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>23</playcount>
+		<lastplayed>20220814T182732</lastplayed>
+	</game>
+	<game>
+		<path>./rpsetup.rp</path>
+		<name>RetroPie Setup</name>
+		<desc>Install RetroPie from binary or source, install experimental packages, additional drivers, edit Samba shares, custom scraper, as well as other RetroPie-related configurations.</desc>
+		<image>./icons/rpsetup.png</image>
+		<hidden>true</hidden>
+		<playcount>333</playcount>
+		<lastplayed>20220825T183632</lastplayed>
+	</game>
+	<game>
+		<path>./retronetplay.rp</path>
+		<name>RetroArch Net Play</name>
+		<desc>Set up RetroArch Netplay options, choose host or client, port, host IP, delay frames, and your nickname.</desc>
+		<image>./icons/retronetplay.png</image>
+		<hidden>true</hidden>
+		<playcount>11</playcount>
+		<lastplayed>20220826T123510</lastplayed>
+	</game>
+	<game>
+		<path>./wifi.rp</path>
+		<name>WiFi</name>
+		<desc>Connect to or disconnect from a WiFi network and configure WiFi settings.</desc>
+		<image>./icons/wifi.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>17</playcount>
+		<lastplayed>20220826T125414</lastplayed>
+	</game>
+	<game>
+		<path>./audiosettings.rp</path>
+		<name>Audio</name>
+		<desc>Configure audio settings. Choose default of auto, 3.5mm jack, or HDMI. Mixer controls, and apply default settings.</desc>
+		<image>./icons/audiosettings.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<hidden>true</hidden>
+		<playcount>4</playcount>
+		<lastplayed>20220826T152951</lastplayed>
+	</game>
+</gameList>
