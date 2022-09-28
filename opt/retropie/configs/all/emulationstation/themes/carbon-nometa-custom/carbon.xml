@@ -1,0 +1,125 @@
+<!-- 
+Theme: Carbon
+version: 2.0
+author: Eric Hettervik (Rookervik)
+license: creative commons CC-BY-NC-SA
+originally based on: "simple" by nils bonenberger
+
+To change theme color, edit this line:
+
+<include>./carbon_red.xml</include>
+				 _blue
+				 _green
+				 _yellow
+				 _orange
+				 _purple
+				 _teal
+				 _pink
+
+Reference Colors:
+	Red 	8b 00 00
+	Blue 	30 82 ce
+	Green 	50 d6 2c
+	Yellow	ef bc 0b
+	Orange	ef 71 0b
+	Purple	ac 0b ef
+	Teal	04 e9 f7
+	Pink	f5 02 97
+-->
+
+
+
+<theme>
+	<formatVersion>3</formatVersion>
+	<include>./carbon_red.xml</include>
+
+	<view name="system,basic,detailed">
+
+		<helpsystem name="help">
+			<textColor>7d7d7d</textColor>
+			<iconColor>7d7d7d</iconColor>
+		</helpsystem>
+
+	</view>
+
+	<view name="basic">
+
+		<textlist name="gamelist">
+			<selectorColor>1c1c1c</selectorColor>
+			<primaryColor>969696</primaryColor>
+			<secondaryColor>7a6161</secondaryColor>
+			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<pos>0.025 0.18</pos>
+			<size>0.950 0.72</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="md_image">
+			<pos>0.75 0.55</pos>
+			<maxSize>0.6 0.6</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+
+<feature supported="video">
+
+	<view name="video">
+
+		<video name="md_video">
+			<pos>0.75 0.55</pos>
+			<maxSize>0.6 0.6</maxSize>
+			<origin>0.5 0.5</origin>
+			<delay>0.2</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+		</video>
+
+		<image name="md_marquee">
+			<pos>0.6 0.035</pos>
+			<origin>0 0</origin>
+			<maxSize>0.2 0.1</maxSize>
+		</image>
+
+	</view>
+
+</feature>
+
+	<view name="video,detailed">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<pos>1 1</pos>
+		</text>
+
+		<text name="md_playcount, md_players, md_genre, md_publisher, md_developer">
+			<pos>1 1</pos>
+		</text>
+
+		<datetime name="md_releasedate">
+			<pos>1 1</pos>
+		</datetime>
+
+		<textlist name="gamelist">
+			<selectorColor>1c1c1c</selectorColor>
+			<primaryColor>969696</primaryColor>
+			<secondaryColor>7a6161</secondaryColor>
+			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<pos>0.039 0.167</pos>
+			<size>0.442 0.741</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+
+	</view>
+
+</theme>
