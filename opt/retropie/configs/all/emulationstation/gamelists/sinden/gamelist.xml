@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Start All Guns (with Recoil -auto).sh</path>
+		<name>Start All Guns (with Recoil -auto)</name>
+		<sortname>2</sortname>
+	</game>
+	<game>
+		<path>./Start All Guns (with Recoil -single shot).sh</path>
+		<name>Start All Guns (with Recoil -single shot)</name>
+		<sortname>3</sortname>
+	</game>
+	<game>
+		<path>./StopSindenLightgun(s).sh</path>
+		<name>StopSindenLightgun(s)</name>
+		<sortname>4</sortname>
+	</game>
+	<game>
+		<path>./Start All Guns (no recoil).sh</path>
+		<name>Start All Guns (no recoil)</name>
+		<sortname>1</sortname>
+	</game>
+</gameList>
