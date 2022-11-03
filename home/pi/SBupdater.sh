@@ -44,9 +44,6 @@ function do_everything () {
 
 
 function main () {
-  ## Create logfile ##
-  echo > SBupdate.log
-  
   ## Check if script has been run as root and, if not, quit ##
   if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 
