@@ -26,7 +26,7 @@ This branch is a Work-In-Progress.
 - ~~new overlay cfgs to enable border-size switching~~
 
 ### Script needs to : ###
-- donwload and install newly created/edited files
+- download and install newly created/edited files
 - Surgically amend 2x 'lightgunmono2.exe.config' files
 - Surgically amed '/opt/retropie/configs/all/retroarch.cfg'
 - make SBupdate.sh executable and run it
