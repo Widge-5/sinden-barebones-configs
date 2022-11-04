@@ -15,8 +15,8 @@ This branch is a Work-In-Progress.
 - ~~New PHO config~~ *file updated*
 - ~~Storm Bubbles MAME builds (4 total)~~ *a script has been created to automate installation*
 - ~~Super Russian Roulette config (controls correction)~~
-- Fix ownership of folders under roms
-- Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms
+- ~~Fix ownership of folders under roms~~
+- ~~Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms~~
 - global emulators.cfg needs to be appended with new games
 - ~~retroarch.cfg needs keyboard mapsfor joypads removed~~ *file updated*
 - ~~retroarch.cfg needs `input_overlay_next = alt`~~ *file updated*
@@ -28,6 +28,6 @@ This branch is a Work-In-Progress.
 ### Script needs to : ###
 - download and install newly created/edited files
 - Surgically amend 2x 'lightgunmono2.exe.config' files
-- Surgically amed '/opt/retropie/configs/all/retroarch.cfg'
+- Surgically amend '/opt/retropie/configs/all/retroarch.cfg'
 - make SBupdate.sh executable and run it
 - run the chmod command to fix rom folder permissions
