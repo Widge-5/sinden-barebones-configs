@@ -1,5 +1,17 @@
 #!/bin/bash
 
+#########################################################################################
+###     Author: Widge
+###     Created: 01/Nov/2022
+###
+###     Updates the StormedBubbles versions of MAME cores, present on BareBones 9 RetroPie binaries
+###     images for users of Sinden Lightguns, form pre-compiled binaries.
+###
+###     Requires an active internet connection.
+###
+###     Usage: sudo ./SBupdater.sh
+#########################################################################################
+
 
 function do_everything () {
 ## function to download the zip unpack it and place it in the required location ##
