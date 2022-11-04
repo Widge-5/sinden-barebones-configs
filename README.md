@@ -43,7 +43,9 @@ This branch is a Work-In-Progress.
 - arcade_tailg = "lr-mame-StormedBubbles"
 - arcade_topgunner = "lr-mame-StormedBubbles"
 - arcade_wildplt = "lr-mame-StormedBubbles"
-*(note- firefox is a change to an existing entry)
+
+*(note- firefox is a change to an existing entry)*
+
 #### *unfinished* ####
 - arcade_avalnche = "lr-mame-StormedBubbles"
 - arcade_destroyr = "lr-mame-StormedBubbles"
