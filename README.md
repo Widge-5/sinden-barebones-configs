@@ -35,7 +35,13 @@ This branch is a Work-In-Progress.
 ### emulators.cfg additions ###
 #### *confirmed* ####
 - arcade_firefox = "lr-mame2010-StormedBubbles"
+- arcade_avalnche = "lr-mame-StormedBubbles"
+- arcade_bombee = "lr-mame-StormedBubbles"
 - arcade_bshark = "lr-mame-StormedBubbles"
+- arcade_cutieq = "lr-mame-StormedBubbles"
+- arcade_geebee = "lr-mame-StormedBubbles"
+- arcade_mmagic = "lr-mame-StormedBubbles"
+- arcade_sbrkout = "lr-mame-StormedBubbles"
 - arcade_seawolf = "lr-mame-StormedBubbles"
 - arcade_seawolf2 = "lr-mame-StormedBubbles"
 - arcade_sharrier = "lr-mame-StormedBubbles"
@@ -47,8 +53,8 @@ This branch is a Work-In-Progress.
 *(note- firefox is a change to an existing entry)*
 
 #### *unfinished* ####
-- arcade_avalnche = "lr-mame-StormedBubbles"
 - arcade_destroyr = "lr-mame-StormedBubbles"
 - arcade_lockon = "lr-mame-StormedBubbles"
 - arcade_nightstr = "lr-mame-StormedBubbles"
 - arcade_pong = "lr-mame-StormedBubbles"
+- arcade_sbrkoutc = "lr-mame-StormedBubbles"
