@@ -29,9 +29,11 @@ This branch is a Work-In-Progress.
 - delete `/opt/retropie/configs/all/retroarch/config/MAME/firefox.opt`
 - Surgically amend 2x 'lightgunmono2.exe.config' files to correct the button assignments
 - Surgically amend '/opt/retropie/configs/all/retroarch.cfg' to remove p1 controller keyboard binds
+- Amend '/opt/retropie/configs/all/emulators.cfg' with the entries listed below.  To avoid duplicates, the script should check if an entry already exists for the game named before the `=` and, if so, alter it to match our list. Otherwise, just append the entry to the end of the file.
 - make SBupdate.sh executable and run it (downloaded earlier in script) to download and install latest StormedBubbles cores.
 - Update stock lr-mame2003-plus (a binary update is fine) for the maxforce alignment fix
 - run the chown command to fix rom folder permissions
+- (I recommend naming this script something like BB90-91update or whatever. Something that makes it clear this is an update from BB9.0 to BB9.1.  Don't want someone running this in the future if they already have a later release).
 
 
 ### emulators.cfg additions ###
