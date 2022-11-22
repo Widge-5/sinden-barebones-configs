@@ -43,11 +43,6 @@ This branch is a Work-In-Progress.
 - arcade_geebee = "lr-mame-StormedBubbles"
 - arcade_lockon = "lr-mame-StormedBubbles"
 - arcade_mmagic = "lr-mame-StormedBubbles"
-- arcade_sbrkout = "lr-mame-StormedBubbles"
-- arcade_sbrkout2 = "lr-mame-StormedBubbles"
-- arcade_sbrkout3 = "lr-mame-StormedBubbles"
-- arcade_sbrkoutc = "lr-mame-StormedBubbles"
-- arcade_sbrkoutc2 = "lr-mame-StormedBubbles"
 - arcade_seawolf = "lr-mame-StormedBubbles"
 - arcade_seawolf2 = "lr-mame-StormedBubbles"
 - arcade_sharrier = "lr-mame-StormedBubbles"
@@ -59,6 +54,3 @@ This branch is a Work-In-Progress.
 
 *(note- firefox is a change to an existing entry)*
 
-#### *unfinished* ####
-- arcade_nightstr = "lr-mame-StormedBubbles"
-- arcade_pong = "lr-mame-StormedBubbles"
