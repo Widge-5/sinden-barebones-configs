@@ -87,18 +87,18 @@ function update_p2_recoil_auto () {}
 ##---Item 7
 ##-------------- Create README for how to play actionmax roms ---------------------
 
-function create_am_readme () {
-        echo "Adding $AMREADME for actionmax roms..."
-cat >"$AMREADME" <<_EOF_
-cd ~/RetroPie/roms/daphne
-ln -s actionmax 38ambushalley.daphne
-ln -s actionmax bluethunder.daphne
-ln -s actionmax hydrosub2021.daphne
-ln -s actionmax popsghostly.daphne
-ln -s actionmax sonicfury.daphne
-_EOF_
-
-}
+#function create_am_readme () {
+#        echo "Adding $AMREADME for actionmax roms..."
+#cat >"$AMREADME" <<_EOF_
+#cd ~/RetroPie/roms/daphne
+#ln -s actionmax 38ambushalley.daphne
+#ln -s actionmax bluethunder.daphne
+#ln -s actionmax hydrosub2021.daphne
+#ln -s actionmax popsghostly.daphne
+#ln -s actionmax sonicfury.daphne
+#_EOF_
+#
+#}
 
 
 #------------------------------------------------------------------------------------
@@ -110,7 +110,7 @@ function main () {
 		update_permissions
 		update_p2_recoil
 		update_p2_recoil_auto
-		create_am_readme
+#		create_am_readme
 	else
 		echo "This script is for official BB9 images only".
 	fi
