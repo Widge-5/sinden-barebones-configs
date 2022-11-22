@@ -14,23 +14,25 @@ This branch is a Work-In-Progress.
 - ~~Storm Bubbles MAME builds (4 total)~~ *a script has been created to automate installation*
 - ~~Super Russian Roulette config (controls correction)~~ *file edited*
 - ~~Fix ownership of folders under roms~~ *included in fixes script*
-- global emulators.cfg needs to be appended with new games
-- retroarch.cfg needs keyboard mapsfor joypads removed -- *file updated but needs to be surgically amended in script*
-- retroarch.cfg needs `input_overlay_next = alt` -- *file updated but needs to be surgically amended in script*
-- create mame cfgs for newly supported games that need them
-- check if any mame artwork/samples are needed.
+- ~~global emulators.cfg needs to be appended with new games~~ *file editeded*
+- ~~retroarch.cfg needs keyboard maps for joypads removed~~  *file updated but needs to be surgically amended in script*
+- ~~retroarch.cfg needs `input_overlay_next = alt`~~ *file updated but needs to be surgically amended in script*
+- ~~create mame cfgs for newly supported games that need them~~ *files created*
+- ~~check if any mame artwork/samples are needed.~~ *files added*
 - ~~New firefox config for Mame2010~~ *file created*
 - ~~new overlay cfgs to enable border-size switching~~ *files edited*
 - ~~new overlays for newly supported games~~ *files created*
-- delete old `firefox.opt` for mame-current
+- ~~delete old `firefox.opt` for mame-current~~ -- *deleted from repo, but needs to be removed in script*
 
 ### Script needs to : ###
-- download and install newly created/edited files
+- download and install newly created/edited files - using the file `changed_file_list.txt` as reference.  Each line on that file is the download link for the file and the destination location of the file seperated with only a single semi-colon `;`. The script needs to be able to deal with filenames that may contain commas `,`. 
 - delete `/opt/retropie/configs/all/retroarch/config/MAME/firefox.opt`
-- Surgically amend 2x 'lightgunmono2.exe.config' files
-- Surgically amend '/opt/retropie/configs/all/retroarch.cfg'
-- make SBupdate.sh executable and run it
-- run the chmod command to fix rom folder permissions
+- Surgically amend 2x 'lightgunmono2.exe.config' files to correct the button assignments
+- Surgically amend '/opt/retropie/configs/all/retroarch.cfg' to remove p1 controller keyboard binds
+- make SBupdate.sh executable and run it (downloaded earlier in script) to download and install latest StormedBubbles cores.
+- Update stock lr-mame2003-plus (a binary update is fine) for the maxforce alignment fix
+- run the chown command to fix rom folder permissions
+
 
 ### emulators.cfg additions ###
 #### *confirmed* ####
@@ -54,3 +56,18 @@ This branch is a Work-In-Progress.
 
 *(note- firefox is a change to an existing entry)*
 
+
+
+### Summary of files to be updated from changed_file_list.txt ###
+- The StormedBubbles update script
+- daphne Readme.txt
+- revised Supermodel.ini
+- Sports Shooting USA calibration
+- Golly Ghost Calibration
+- Point Blank 2 Calibration
+- artwork files for mame games
+- new/updated mame game cfgs
+- new/updated retroarch game cfgs
+- system launching images
+- new/updated bezel overlay images
+- new updated overlay cfgs that allow border resizing.
