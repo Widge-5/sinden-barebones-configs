@@ -67,9 +67,7 @@ This branch is a Work-In-Progress.
 - The StormedBubbles update script
 - daphne Readme.txt
 - revised Supermodel.ini
-- Sports Shooting USA calibration
-- Golly Ghost Calibration
-- Point Blank 2 Calibration
+- Calibration for : Sports Shooting USA, Golly Ghost (arcade), Point Blank 2 (arcade), Area51, Area51MX
 - artwork files for mame games
 - new/updated mame game cfgs
 - new/updated retroarch game cfgs
