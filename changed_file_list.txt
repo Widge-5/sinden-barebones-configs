@@ -5,6 +5,8 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/gollygho/nvram;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/gollygho/nvram
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/nvram/ptblank2.nv;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/nvram/ptblank2.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51mx.nv;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51mx.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51.nv;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51.nv
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/avalnche.zip;/home/pi/RetroPie/BIOS/mame/artwork/avalnche.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/destroyr.zip;/home/pi/RetroPie/BIOS/mame/artwork/destroyr.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/seawolf.zip;/home/pi/RetroPie/BIOS/mame/artwork/seawolf.zip
