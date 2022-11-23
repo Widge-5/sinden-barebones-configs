@@ -23,10 +23,12 @@ This branch is a Work-In-Progress.
 - ~~new overlay cfgs to enable border-size switching~~ *files edited*
 - ~~new overlays for newly supported games~~ *files created*
 - ~~delete old `firefox.opt` for mame-current~~ -- *deleted from repo, but needs to be removed in script*
+- ~~delete old `ptbalnk2.cfg` and `ptblank2.opt` for mame2010~~ -- *deleted from repo, but needs to be removed in script*
 
 ### Script needs to : ###
 - download and install newly created/edited files - using the file `changed_file_list.txt` as reference.  Each line on that file is the download link for the file and the destination location of the file seperated with only a single semi-colon `;`. The script needs to be able to deal with filenames that may contain commas `,`. 
 - delete `/opt/retropie/configs/all/retroarch/config/MAME/firefox.opt`
+- delete `opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.cfg` and `opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.opt`
 - Surgically amend 2x 'lightgunmono2.exe.config' files to correct the button assignments
 - Surgically amend '/opt/retropie/configs/all/retroarch.cfg' to remove p1 controller keyboard binds
 - Amend '/opt/retropie/configs/all/emulators.cfg' with the entries listed below.  To avoid duplicates, the script should check if an entry already exists for the game named before the `=` and, if so, alter it to match our list. Otherwise, just append the entry to the end of the file.
@@ -39,6 +41,7 @@ This branch is a Work-In-Progress.
 ### emulators.cfg additions ###
 #### *confirmed* ####
 - arcade_firefox = "lr-mame2010-StormedBubbles"
+- arcade_ptblank2 = "lr-mame2010-StormedBubbles"
 - arcade_avalnche = "lr-mame-StormedBubbles"
 - arcade_bombee = "lr-mame-StormedBubbles"
 - arcade_bshark = "lr-mame-StormedBubbles"
@@ -56,7 +59,7 @@ This branch is a Work-In-Progress.
 - arcade_topgunner = "lr-mame-StormedBubbles"
 - arcade_wildplt = "lr-mame-StormedBubbles"
 
-*(note- firefox is a change to an existing entry)*
+*(note- firefox and ptblank are changes to existing entries)*
 
 
 
