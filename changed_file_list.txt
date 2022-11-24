@@ -1,4 +1,4 @@
-﻿https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh;/home/pi/SBupdater.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh;/home/pi/SBupdater.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/daphne/README.TXT;/home/pi/RetroPie/roms/daphne/README.TXT
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/emulators/supermodel/bin/Config/Supermodel.ini;/opt/retropie/emulators/supermodel/bin/Config/Supermodel.ini
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem
@@ -13,18 +13,18 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/seawolf2.zip;/home/pi/RetroPie/BIOS/mame/artwork/seawolf2.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/skyraid.zip;/home/pi/RetroPie/BIOS/mame/artwork/skyraid.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/samples/seawolf.zip;/home/pi/RetroPie/BIOS/mame/samples/seawolf.zip
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/ptblank2.cfg;opt/retropie/configs/all/retroarch/config/MAME 2010/ptblank2.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/avalnche.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/avalnche.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/destroyr.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/destroyr.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/lockon.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/lockon.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/skyraid.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/skyraid.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/tailg.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/tailg.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/topgunnr.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/topgunnr.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/wildplt.cfg;home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/wildplt.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/FinalBurn%20Neo/srroulette.cfg;opt/retropie/configs/all/retroarch/config/FinalBurnNeo/srroulette.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Project%20-%20Horned%20Owl%20(USA).cfg;opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Project-HornedOwl(USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/ptblank2.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2010/ptblank2.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/avalnche.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/avalnche.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/destroyr.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/destroyr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/lockon.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/lockon.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/skyraid.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/skyraid.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/tailg.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/tailg.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/topgunnr.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/topgunnr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/wildplt.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/wildplt.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/FinalBurn%20Neo/srroulette.cfg;/opt/retropie/configs/all/retroarch/config/FinalBurnNeo/srroulette.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Project%20-%20Horned%20Owl%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Project-HornedOwl(USA).cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/avalnche.cfg;/opt/retropie/configs/all/retroarch/config/MAME/avalnche.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/bshark.cfg;/opt/retropie/configs/all/retroarch/config/MAME/bshark.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/bombbee.cfg;/opt/retropie/configs/all/retroarch/config/MAME/bombbee.cfg
@@ -50,10 +50,10 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/tailg.cfg;/opt/retropie/configs/all/retroarch/config/MAME/tailg.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/topgunnr.cfg;/opt/retropie/configs/all/retroarch/config/MAME/topgunnr.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/wildplt.cfg;/opt/retropie/configs/all/retroarch/config/MAME/wildplt.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202003-Plus/starblad.cfg;opt/retropie/configs/all/retroarch/config/MAME2003-Plus/starblad.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202015/swa.cfg;opt/retropie/configs/all/retroarch/config/MAME2015/swa.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/firefox.cfg;opt/retropie/configs/all/retroarch/config/MAME2010/firefox.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/firefox.opt;opt/retropie/configs/all/retroarch/config/MAME2010/firefox.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202003-Plus/starblad.cfg;/opt/retropie/configs/all/retroarch/config/MAME2003-Plus/starblad.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202015/swa.cfg;/opt/retropie/configs/all/retroarch/config/MAME2015/swa.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/firefox.cfg;/opt/retropie/configs/all/retroarch/config/MAME2010/firefox.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/firefox.opt;/opt/retropie/configs/all/retroarch/config/MAME2010/firefox.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/fba/launching.png;/opt/retropie/configs/fba/launching.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/fds/launching.png;/opt/retropie/configs/fds/launching.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/gamegear/launching.png;/opt/retropie/configs/gamegear/launching.png
