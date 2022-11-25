@@ -33,6 +33,7 @@ TMPDIR=$CURRDIR/changefiles
 CONF=changed_file_list.txt
 CONFCLEAN=changed_file_list.txt.clean
 CONFURL="https://raw.githubusercontent.com/Widge-5/sinden-barebones-configs/BB-9.1/changed_file_list.txt"
+SB_UPDATE="/home/pi/SBupdater.sh"
 
 
 function update_button_value () {
@@ -181,6 +182,18 @@ function get_config_changes () {
 }
 
 
+function update_mame_cores () {
+	echo "Updating lr-mame2003-plus..."              
+	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus
+	
+	echo "Updating StormedBubbles mame cores..."
+	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
+		chmod +x $SB_UPDATE
+		$SB_UPDATE
+	else
+	      echo "----------ERROR!! SBupdater is not installed-------------"
+	fi
+}
 
 #------------------------------------------------------------------------------------
 ###------------------------------------MAIN------------------------------------------
@@ -188,11 +201,12 @@ function get_config_changes () {
 function main () {
 	vbb
 	if [ $GTG -eq 1 ]; then
-		update_permissions
 		update_p2_recoil
 		update_p2_recoil_auto
-#		create_am_readme
+#		create_am_readme	# Not needed - the file will be downloaded with all the others
 		get_config_changes
+		update_mame_cores
+		update_permissions	# Would probably be best to run this last
 	else
 		echo "This script is for official BB9 images only".
 	fi
