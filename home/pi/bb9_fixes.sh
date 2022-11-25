@@ -14,6 +14,7 @@
 ###     6.) LG mono config for p2 recoil configs have p1 buttons set.
 ###     7.) [REMOVED] Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms
 ###     8.) Download latest Change File Config list and process entries to update bios / config / bezels etc.
+###     9.) Update stock Mame2003-Plus and all StormedBubbles Mame cores  -WIDGE
 ###
 ###     Usage: sudo ./script_name.sh
 #########################################################################################
@@ -163,7 +164,7 @@ function get_config_changes () {
                          if [ ! -f "$change_file_entry" ]; then
                                 echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
                          else
-                                #--- Backup system file if it exists. Install new one ---#
+                                #--- Backup system file if it exists. Install new one ---#			 ### SOME FILES IN VARIOUS LOCATIONS SHARE THE SAME NAME, WILL THIS OVERWRITE SAME-NAME BACKUPS? -WIDGE
                                 if [ -f "$dst" ]; then
                                         echo "Backing up existing file: $dst..."
                                         /bin/cp -p $dst "$dst".bak
@@ -176,16 +177,19 @@ function get_config_changes () {
                                         echo "----------ERROR!! could not install $change_file_entry into: $dst continuing-------------"
                                 fi
                          fi
+			 
                 done
+
+		### CAN WE DELETE THE CHANGELIST FILE HERE, ONCE PROCESSING IS COMPLETE? ###
 
         fi
 }
 
 
-function update_mame_cores () {
+function update_mame_cores () {			### - ADDED BY WIDGE - ###
 	echo "Updating lr-mame2003-plus..."              
 	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus
-	
+										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED 
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
 		chmod +x $SB_UPDATE
@@ -203,10 +207,10 @@ function main () {
 	if [ $GTG -eq 1 ]; then
 		update_p2_recoil
 		update_p2_recoil_auto
-#		create_am_readme	# Not needed - the file will be downloaded with all the others
+#		create_am_readme	# Not needed - the file will be downloaded with all the others -WIDGE
 		get_config_changes
-		update_mame_cores
-		update_permissions	# Would probably be best to run this last
+		update_mame_cores	# added by Widge
+		update_permissions	# Would probably be best to run this last - WIDGE
 	else
 		echo "This script is for official BB9 images only".
 	fi
