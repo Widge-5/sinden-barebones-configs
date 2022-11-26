@@ -3,7 +3,7 @@
 #########################################################################################
 ###     Author: wiggy808
 ###     Created: 11/2/2022
-###     Updated: 11/24/2022
+###     Updated: 11/25/2022
 ###     Notes: Fixes the following issues for BB9:
 ###
 ###     1.) New PHO config
@@ -94,21 +94,6 @@ function update_p2_recoil_auto () {}
 	update_button_value ButtonRightOffscreen 50 $P2_RECAUTO_DIR/$FILE
 }
 
-##---Item 7
-##-------------- Create README for how to play actionmax roms ---------------------
-
-#function create_am_readme () {
-#        echo "Adding $AMREADME for actionmax roms..."
-#cat >"$AMREADME" <<_EOF_
-#cd ~/RetroPie/roms/daphne
-#ln -s actionmax 38ambushalley.daphne
-#ln -s actionmax bluethunder.daphne
-#ln -s actionmax hydrosub2021.daphne
-#ln -s actionmax popsghostly.daphne
-#ln -s actionmax sonicfury.daphne
-#_EOF_
-#
-#}
 
 ##---Item 8
 ##-------------- Download latest Change file for new Bezels Configs etc ---------------------
@@ -165,6 +150,7 @@ function get_config_changes () {
                                 echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
                          else
                                 #--- Backup system file if it exists. Install new one ---#			 ### SOME FILES IN VARIOUS LOCATIONS SHARE THE SAME NAME, WILL THIS OVERWRITE SAME-NAME BACKUPS? -WIDGE
+														### Names are irrelevant, only paths with names matter. dst is the second variable in the change_list_file.txt which is supposed to be unique yes? --wiggy 
                                 if [ -f "$dst" ]; then
                                         echo "Backing up existing file: $dst..."
                                         /bin/cp -p $dst "$dst".bak
@@ -181,7 +167,8 @@ function get_config_changes () {
                 done
 
 		### CAN WE DELETE THE CHANGELIST FILE HERE, ONCE PROCESSING IS COMPLETE? ###
-
+		### The file is kept for future scalability. If file is removed we cannot determine the last changelist file processed on the Pi. 
+		### "/bin/rm -rf $TMPDIR/*" above removes existing ones before it saves the current one running so that only the last changelist is kept for this reason.
         fi
 }
 
@@ -189,7 +176,7 @@ function get_config_changes () {
 function update_mame_cores () {			### - ADDED BY WIDGE - ###
 	echo "Updating lr-mame2003-plus..."              
 	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus
-										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED 
+										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
 		chmod +x $SB_UPDATE
@@ -207,10 +194,9 @@ function main () {
 	if [ $GTG -eq 1 ]; then
 		update_p2_recoil
 		update_p2_recoil_auto
-#		create_am_readme	# Not needed - the file will be downloaded with all the others -WIDGE
 		get_config_changes
 		update_mame_cores	# added by Widge
-		update_permissions	# Would probably be best to run this last - WIDGE
+		update_permissions	# Would probably be best to run this last - WIDGE. agree -wiggy
 	else
 		echo "This script is for official BB9 images only".
 	fi
