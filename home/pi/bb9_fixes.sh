@@ -194,8 +194,9 @@ function update_cfg_value () {				#  PLEASE CHECK THIS, NOT 100% SURE IF THIS IS
 
 function update_global_config () {}
 	echo "Fixing Global retroarch.cfg... "
-	# Fixes for P2 Recoil Auto LightgunMono2.exe.config
+	# make p1-gun-select the border change button (hotkey + back-right)
 	update_cfg_value input_overlay_next alt $GLOBAL_CFG
+	# remove P1 keyboard binds
 	update_cfg_value input_player1_b nul $GLOBAL_CFG
 	update_cfg_value input_player1_l nul $GLOBAL_CFG
 	update_cfg_value input_player1_left nul $GLOBAL_CFG
