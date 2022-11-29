@@ -16,6 +16,7 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/skyraid.zip;/home/pi/RetroPie/BIOS/mame/artwork/skyraid.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/samples/seawolf.zip;/home/pi/RetroPie/BIOS/mame/samples/seawolf.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/samples/mmagic.zip;/home/pi/RetroPie/BIOS/mame/samples/mmagic.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/policetr.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/policetr.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/ptblank2.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2010/ptblank2.cfg
