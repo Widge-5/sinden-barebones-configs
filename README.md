@@ -30,7 +30,7 @@ This branch is a Work-In-Progress.
 - delete `/opt/retropie/configs/all/retroarch/config/MAME/firefox.opt`
 - delete `opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.cfg` and `opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.opt`
 - Surgically amend 2x `lightgunmono2.exe.config` files to correct the button assignments
-- Surgically amend '/opt/retropie/configs/all/retroarch.cfg' to remove p1 controller keyboard binds
+- Surgically amend `/opt/retropie/configs/all/retroarch.cfg` to remove p1 controller keyboard binds and to make `input_overlay_next = "alt"`
 - Amend `/opt/retropie/configs/all/emulators.cfg` with the entries listed below.  To avoid duplicates, the script should check if an entry already exists for the game named before the `=` and, if so, alter it to match our list. Otherwise, just append the entry to the end of the file.
 - make SBupdate.sh executable and run it (downloaded earlier in script) to download and install latest StormedBubbles cores.
 - Update stock lr-mame2003-plus (a binary update is fine) for the maxforce alignment fix
