@@ -35,6 +35,7 @@ CONF=changed_file_list.txt
 CONFCLEAN=changed_file_list.txt.clean
 CONFURL="https://raw.githubusercontent.com/Widge-5/sinden-barebones-configs/BB-9.1/changed_file_list.txt"
 SB_UPDATE="/home/pi/SBupdater.sh"
+GLOBAL_CFG=/opt/retropie/configs/all/retroarch.cfg
 
 
 function update_button_value () {
@@ -186,6 +187,27 @@ function update_mame_cores () {			### - ADDED BY WIDGE - ###
 	fi
 }
 
+function update_cfg_value () {				#  PLEASE CHECK THIS, NOT 100% SURE IF THIS IS CORRECT
+        echo "changing ${1} to ${2} in file ${3}"	#  TRIED TO REVERSE ENGINEER YOUR update_button_value FUNCTION
+        sed -i -e "s/${1} = \"[0-9][0-9]\"/${1} = \"${2}\"/" ${3}
+}
+
+function update_global_config () {}
+	echo "Fixing Global retroarch.cfg... "
+	# Fixes for P2 Recoil Auto LightgunMono2.exe.config
+	update_cfg_value input_overlay_next alt $GLOBAL_CFG
+	update_cfg_value input_player1_b nul $GLOBAL_CFG
+	update_cfg_value input_player1_l nul $GLOBAL_CFG
+	update_cfg_value input_player1_left nul $GLOBAL_CFG
+	update_cfg_value input_player1_r nul $GLOBAL_CFG
+	update_cfg_value input_player1_right nul $GLOBAL_CFG
+	update_cfg_value input_player1_select nul $GLOBAL_CFG
+	update_cfg_value input_player1_start nul $GLOBAL_CFG
+	update_cfg_value input_player1_up nul $GLOBAL_CFG
+	update_cfg_value input_player1_x nul $GLOBAL_CFG
+	update_cfg_value input_player1_y nul $GLOBAL_CFG
+}
+
 #------------------------------------------------------------------------------------
 ###------------------------------------MAIN------------------------------------------
 #------------------------------------------------------------------------------------
@@ -194,6 +216,7 @@ function main () {
 	if [ $GTG -eq 1 ]; then
 		update_p2_recoil
 		update_p2_recoil_auto
+		update_global_config	# added by Widge
 		get_config_changes
 		update_mame_cores	# added by Widge
 		update_permissions	# Would probably be best to run this last - WIDGE. agree -wiggy
