@@ -74,3 +74,4 @@ This branch is a Work-In-Progress.
 - system launching images
 - new/updated bezel overlay images
 - new updated overlay cfgs that allow border resizing.
+- Custom theme colour change for clarity
