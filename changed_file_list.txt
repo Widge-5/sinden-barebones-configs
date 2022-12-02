@@ -410,3 +410,4 @@ https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBeze
 https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Tin%20Star%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Tin Star (USA).cfg
 https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/X%20Zone%20(Japan,%20USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/X Zone (Japan, USA).cfg
 https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Yoshi_s%20Safari%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Yoshi_s Safari (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/emulationstation/themes/carbon-nometa-custom/carbon.xml;/opt/retropie/configs/all/emulationstation/themes/carbon-nometa-custom/carbon.xml
