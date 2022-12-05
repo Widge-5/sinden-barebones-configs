@@ -1,20 +1,22 @@
 #!/bin/bash
-
 #########################################################################################
-###     Author: wiggy808
+###     Authors: wiggy808 / Widge
 ###     Created: 11/2/2022
-###     Updated: 11/25/2022
-###     Notes: Fixes the following issues for BB9:
+###     Updated: 12/4/2022
+###     Notes: Fixes or adds the following for BB9:
 ###
-###     1.) New PHO config
-###     2.) Storm Bubbles MAME builds
-###     3.) Supermodel.ini
-###     4.) Super Russian Roulette config (controls correction).
+###     1.) [NOT DONE] New PHO config
+###     2.) [NOT DONE] Storm Bubbles MAME builds (or is this same as #9 ?)
+###     3.) [NOT DONE] Supermodel.ini
+###     4.) [NOT DONE] Super Russian Roulette config (controls correction).
 ###     5.) Fix ownership of folders under roms
 ###     6.) LG mono config for p2 recoil configs have p1 buttons set.
-###     7.) [REMOVED] Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms
+###     7.) Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms
 ###     8.) Download latest Change File Config list and process entries to update bios / config / bezels etc.
-###     9.) Update stock Mame2003-Plus and all StormedBubbles Mame cores  -WIDGE
+###     9.) Update stock Mame2003-Plus and all StormedBubbles Mame cores
+###     10.) Removes default keyboard bindings to Player 1 in retropie's global retroarch.cfg 
+###     11.) Removes RA configs for ptblank2 and MAME opt files for ptblank2 and firefox
+###     12.) Downloads latest Emulator Change config text file and applies to global emulators.cfg
 ###
 ###     Usage: sudo ./script_name.sh
 #########################################################################################
@@ -28,7 +30,6 @@ FILE=LightgunMono2.exe.config
 LOG=/tmp/bb9_fixes.log
 BBFILE=/etc/bb-release
 GTG=0
-AMREADME=$ROMDIR/daphne/README.TXT
 CURRDIR=$(pwd)
 TMPDIR=$CURRDIR/changefiles
 CONF=changed_file_list.txt
@@ -36,12 +37,11 @@ CONFCLEAN=changed_file_list.txt.clean
 CONFURL="https://raw.githubusercontent.com/Widge-5/sinden-barebones-configs/BB-9.1/changed_file_list.txt"
 SB_UPDATE="/home/pi/SBupdater.sh"
 GLOBAL_CFG=/opt/retropie/configs/all/retroarch.cfg
+GLOBAL_EMU_CFG=/opt/retropie/configs/all/emulators.cfg
+CHANGE_EMU_CFG=changed_emulators_cfg.txt
+CHANGE_EMU_CFG_CLEAN=changed_emulators_cfg.txt.clean
+CHANGE_EMU_CFG_URL="https://raw.githubusercontent.com/Widge-5/sinden-barebones-configs/BB-9.1/changed_emulators_cfg.txt"
 
-
-function update_button_value () {
-        echo "changing ${1} to ${2} in file ${3}"
-        sed -i -e "s/\"${1}\" value=\"[0-9][0-9]\"/\"${1}\" value=\"${2}\"/" ${3}
-}
 
 function vbb () {
         val=$(md5sum $BBFILE | awk '{print $1}')
@@ -51,7 +51,6 @@ function vbb () {
 }
 
 
-
 ##---Item 5
 ##---------------- Several rom folders are not set to owner pi group pi -----------------------
 function update_permissions () {
@@ -59,8 +58,14 @@ function update_permissions () {
 	chown -R pi:pi $ROMDIR
 }
 
+
 ##---Item 6
 ##-------------- LG mono config for p2 recoil configs have p1 buttons set ---------------------
+function update_button_value () {
+        echo "changing ${1} to ${2} in file ${3}"
+        sed -i -e "s/\"${1}\" value=\"[0-9][0-9]\"/\"${1}\" value=\"${2}\"/" ${3}
+}
+
 function update_p2_recoil () {
 	echo "Fixing p2 recoil configs... "
 	# Fixes for P2 Recoil LightgunMono2.exe.config
@@ -78,7 +83,7 @@ function update_p2_recoil () {
 	update_button_value ButtonRightOffscreen 50 $P2_REC_DIR/$FILE
 }
 
-function update_p2_recoil_auto () {}
+function update_p2_recoil_auto () {
 	echo "Fixing p2 recoil auto configs... "
 	# Fixes for P2 Recoil Auto LightgunMono2.exe.config
 	update_button_value ButtonFrontRight 10 $P2_RECAUTO_DIR/$FILE
@@ -95,22 +100,18 @@ function update_p2_recoil_auto () {}
 	update_button_value ButtonRightOffscreen 50 $P2_RECAUTO_DIR/$FILE
 }
 
-
 ##---Item 8
 ##-------------- Download latest Change file for new Bezels Configs etc ---------------------
 function get_config_changes () {
-
         #----------------------------------------------------#
         #--- Prep work and dl of latest Change File list  ---#
         #----------------------------------------------------#
-
         #--- Ensure wget is installed ---#
          wget_test=$(dpkg -l | grep wget)
          if [ -z "$wget_test" ]; then
                 echo "Installing wget..."
                 apt install wget -y
          fi
-
         #--- Download new and remove pre-existing Master Change File and other change files ---#
          if [ ! -d $TMPDIR ]; then
              mkdir $TMPDIR
@@ -119,12 +120,9 @@ function get_config_changes () {
                 /bin/rm -rf $TMPDIR/*
          fi
          cd $TMPDIR
-
          echo "Downloading latest Master Change File..."
          wget $CONFURL
          tr -d '^M' <$CONF > $CONFCLEAN
-
-
 	#---------------------------------#
         #--- Process Change File list  ---#
         #---------------------------------#
@@ -132,31 +130,25 @@ function get_config_changes () {
                 echo "----------ERROR!! could not download latest Master Change File from: $CONFURL exiting-------------"
                 exit 0
         else
-
                 echo "Master Change File downloaded successfully, processing..."
                 IFS=$'\n'
                 for line in `cat $CONFCLEAN`
                 do
-
                         src=$(echo $line | cut -d";" -f1)
                         dst=$(echo $line | cut -d";" -f2)
-
                         #--- Process each Change File Entry ---#
                          echo "Downloading Change file: $src..."
                          change_file_entry=$(basename $src)
                          wget --content-disposition $src
-
                         #--- Verify change file entry download ---#
                          if [ ! -f "$change_file_entry" ]; then
                                 echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
                          else
-                                #--- Backup system file if it exists. Install new one ---#			 ### SOME FILES IN VARIOUS LOCATIONS SHARE THE SAME NAME, WILL THIS OVERWRITE SAME-NAME BACKUPS? -WIDGE
-														### Names are irrelevant, only paths with names matter. dst is the second variable in the change_list_file.txt which is supposed to be unique yes? --wiggy 
+                                #--- Backup system file if it exists. Install new one ---#			 
                                 if [ -f "$dst" ]; then
                                         echo "Backing up existing file: $dst..."
                                         /bin/cp -p $dst "$dst".bak
                                 fi
-
                                 /bin/cp -p $change_file_entry $dst
                                 if [ $? == 0 ]; then
                                         echo "Change file: $change_file_entry installed successfully..."
@@ -166,15 +158,12 @@ function get_config_changes () {
                          fi
 			 
                 done
-
-		### CAN WE DELETE THE CHANGELIST FILE HERE, ONCE PROCESSING IS COMPLETE? ###
-		### The file is kept for future scalability. If file is removed we cannot determine the last changelist file processed on the Pi. 
-		### "/bin/rm -rf $TMPDIR/*" above removes existing ones before it saves the current one running so that only the last changelist is kept for this reason.
         fi
 }
 
-
-function update_mame_cores () {			### - ADDED BY WIDGE - ###
+##---Item 9
+##--------------  Update stock Mame2003-Plus and all StormedBubbles Mame cores ---------------------
+function update_mame_cores () {
 	echo "Updating lr-mame2003-plus..."              
 	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
@@ -187,26 +176,81 @@ function update_mame_cores () {			### - ADDED BY WIDGE - ###
 	fi
 }
 
-function update_cfg_value () {				#  PLEASE CHECK THIS, NOT 100% SURE IF THIS IS CORRECT
-        echo "changing ${1} to ${2} in file ${3}"	#  TRIED TO REVERSE ENGINEER YOUR update_button_value FUNCTION
-        sed -i -e "s/${1} = \"[0-9][0-9]\"/${1} = \"${2}\"/" ${3}
+##---Item 10
+##--------------  Removes default keyboard bindings to Player 1 in retropie's global retroarch.cfg ---------------------
+function update_cfg_value () {                          
+        echo "changing ${1} to ${2} in file ${3}"       
+        sed -i -e "/${1} =/s/\".*\"/\"${2}\"/" ${3}
 }
 
-function update_global_config () {}
-	echo "Fixing Global retroarch.cfg... "
-	# make p1-gun-select the border change button (hotkey + back-right)
-	update_cfg_value input_overlay_next alt $GLOBAL_CFG
-	# remove P1 keyboard binds
-	update_cfg_value input_player1_b nul $GLOBAL_CFG
-	update_cfg_value input_player1_l nul $GLOBAL_CFG
-	update_cfg_value input_player1_left nul $GLOBAL_CFG
-	update_cfg_value input_player1_r nul $GLOBAL_CFG
-	update_cfg_value input_player1_right nul $GLOBAL_CFG
-	update_cfg_value input_player1_select nul $GLOBAL_CFG
-	update_cfg_value input_player1_start nul $GLOBAL_CFG
-	update_cfg_value input_player1_up nul $GLOBAL_CFG
-	update_cfg_value input_player1_x nul $GLOBAL_CFG
-	update_cfg_value input_player1_y nul $GLOBAL_CFG
+function update_global_config () {
+        echo "Fixing Global retroarch.cfg... "
+        # Fixes for P2 Recoil Auto LightgunMono2.exe.config
+        update_cfg_value input_overlay_next alt $GLOBAL_CFG
+        update_cfg_value input_player1_b nul $GLOBAL_CFG
+        update_cfg_value input_player1_l nul $GLOBAL_CFG
+        update_cfg_value input_player1_left nul $GLOBAL_CFG
+        update_cfg_value input_player1_r nul $GLOBAL_CFG
+        update_cfg_value input_player1_right nul $GLOBAL_CFG
+        update_cfg_value input_player1_select nul $GLOBAL_CFG
+        update_cfg_value input_player1_start nul $GLOBAL_CFG
+        update_cfg_value input_player1_up nul $GLOBAL_CFG
+        update_cfg_value input_player1_x nul $GLOBAL_CFG
+        update_cfg_value input_player1_y nul $GLOBAL_CFG
+}
+
+##---Item 11
+##-------------- Removes RA configs for ptblank2 and MAME opt files for ptblank2 and firefox ---------------------
+function remove_mame_files () {
+	echo "Removing Firefox option file and Point Blank 2 option and config file..."
+	/bin/rm -f /opt/retropie/configs/all/retroarch/config/MAME/firefox.opt
+	/bin/rm -f /opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.cfg
+	/bin/rm -f /opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.opt
+}
+
+##---Item 12
+##-------------- Downloads latest Emulator Change config text file and applies to global emulators.cfg ---------------------
+function prep_update_emu_cfg () {
+	cd $TMPDIR
+	echo "Downloading latest changed Emulators Config File..."
+	wget $CHANGE_EMU_CFG_URL
+	tr -d '^M' <$CHANGE_EMU_CFG > $CHANGE_EMU_CFG_CLEAN
+
+	if [ -f "$GLOBAL_EMU_CFG" ]; then
+		echo "Backing up $GLOBAL_EMU_CFG..."
+		/bin/cp -fp $GLOBAL_EMU_CFG "$GLOBAL_EMU_CFG".bak
+	else
+		echo "ERROR: Cannot modify $GLOBAL_EMU_CFG file does not exist"
+		exit 0
+	fi
+}
+
+function update_emu_cfg () {
+
+	if [ -f "$GLOBAL_EMU_CFG" ]; then
+
+		echo "Configuring $GLOBAL_EMU_CFG for $1..."
+
+		#- $CHANGE_EMU_CFG key / values
+		key=$(echo $1 | awk '{print $1}')	
+		value=$(echo $1 | awk '{print $3}')
+
+		#- Get count of entry in emulators.cfg file
+		gcount=$(cat $GLOBAL_EMU_CFG  | grep ^$key | wc -l)
+
+		#- Delete all the lines if there's more than 1, modify line if just 1, and add line if 0
+		if [ $gcount -gt 1 ]; then 
+			sed -i '/^$key/d' $GLOBAL_EMU_CFG 		#THIS DOES NOT WORK, NEED TO FIX
+			echo "$1" >> $GLOBAL_EMU_CFG
+		elif [ $gcount -eq 1 ]; then
+			sed -i -e "/$key =/s/\".*\"/$value/" $GLOBAL_EMU_CFG
+		elif [ $gcount -eq 0 ]; then
+			echo "$1" >> $GLOBAL_EMU_CFG
+		else
+			echo "ERROR: Cannot read $GLOBAL_EMU_CFG"
+		fi
+	fi
+
 }
 
 #------------------------------------------------------------------------------------
@@ -217,14 +261,27 @@ function main () {
 	if [ $GTG -eq 1 ]; then
 		update_p2_recoil
 		update_p2_recoil_auto
-		update_global_config	# added by Widge
+		update_global_config
 		get_config_changes
-		update_mame_cores	# added by Widge
-		update_permissions	# Would probably be best to run this last - WIDGE. agree -wiggy
+		update_mame_cores
+		update_permissions
+		remove_mame_files
+
+		#- Process Change Emulators Config File
+		prep_update_emu_cfg
+		if [ -f $CHANGE_EMU_CFG_CLEAN ]; then
+			IFS=$'\n'
+			for line in `cat $CHANGE_EMU_CFG_CLEAN`
+			do
+				update_emu_cfg $line
+			done
+		else
+			echo "ERROR: Could not download Change Emulators Config file from: $CHANGE_EMU_CFG_URL Exiting..."
+			exit 0
+		fi 
 	else
 		echo "This script is for official BB9 images only".
 	fi
 }
-
 main | tee $LOG
 cat $LOG
