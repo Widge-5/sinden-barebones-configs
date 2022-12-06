@@ -5,13 +5,13 @@
 ###     Updated: 12/4/2022
 ###     Notes: Fixes or adds the following for BB9:
 ###
-###     1.) [NOT DONE] New PHO config
-###     2.) [NOT DONE] Storm Bubbles MAME builds (or is this same as #9 ?)
-###     3.) [NOT DONE] Supermodel.ini
-###     4.) [NOT DONE] Super Russian Roulette config (controls correction).
+###     1.) New PHO config - included in #8
+###     2.) Storm Bubbles MAME builds - included in #9
+###     3.) Supermodel.ini - included in #8
+###     4.) Super Russian Roulette config (controls correction). - included in #8
 ###     5.) Fix ownership of folders under roms
 ###     6.) LG mono config for p2 recoil configs have p1 buttons set.
-###     7.) Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms
+###     7.) Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms - included in #8
 ###     8.) Download latest Change File Config list and process entries to update bios / config / bezels etc.
 ###     9.) Update stock Mame2003-Plus and all StormedBubbles Mame cores
 ###     10.) Removes default keyboard bindings to Player 1 in retropie's global retroarch.cfg 
