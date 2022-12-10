@@ -75,3 +75,4 @@ This branch is a Work-In-Progress.
 - new/updated bezel overlay images
 - new updated overlay cfgs that allow border resizing.
 - Custom theme colour change for clarity
+- updated C64 cfgs (PAL setting for most games, which brings them to alignment) + Duck Hunt
