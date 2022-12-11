@@ -421,7 +421,6 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/Lightgun_Games.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/SHOOTING%20GALLERY.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/SHOOTING GALLERY.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/baby%20blues.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/baby blues.cfg
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/duck_hunt_6581.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/duck_hunt_6581.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/indian%20attack.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/indian attack.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/operation%20thunderbolt.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/operation thunderbolt.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/operation%20thunderbolt.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/operation thunderbolt.opt
