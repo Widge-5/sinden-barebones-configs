@@ -174,6 +174,10 @@ function update_mame_cores () {
 	else
 	      echo "----------ERROR!! SBupdater is not installed-------------"
 	fi
+	
+	echo "Reinstalling USB ROM Service..."
+	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice remove
+	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice
 }
 
 ##---Item 10
