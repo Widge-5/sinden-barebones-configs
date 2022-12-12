@@ -165,7 +165,7 @@ function get_config_changes () {
 ##--------------  Update stock Mame2003-Plus and all StormedBubbles Mame cores ---------------------
 function update_mame_cores () {
 	echo "Updating lr-mame2003-plus..."              
-	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus
+	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus install_bin
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
@@ -177,7 +177,7 @@ function update_mame_cores () {
 	
 	echo "Reinstalling USB ROM Service..."
 	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice remove
-	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice
+	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice install_bin
 }
 
 ##---Item 10
