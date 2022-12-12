@@ -2,16 +2,16 @@
 #########################################################################################
 ###     Authors: wiggy808 / Widge
 ###     Created: 11/2/2022
-###     Updated: 12/4/2022
+###     Updated: 12/11/2022
 ###     Notes: Fixes or adds the following for BB9:
 ###
-###     1.) New PHO config - included in #8
-###     2.) Storm Bubbles MAME builds - included in #9
-###     3.) Supermodel.ini - included in #8
-###     4.) Super Russian Roulette config (controls correction). - included in #8
-###     5.) Fix ownership of folders under roms
-###     6.) LG mono config for p2 recoil configs have p1 buttons set.
-###     7.) Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms - included in #8
+###     1.) New PHO config (combined with #8)
+###     2.) Storm Bubbles MAME builds (combined with #9)
+###     3.) Supermodel.ini - (combined with #8)
+###     4.) Super Russian Roulette config controls correction (combined with #8)
+###     5.) Fix ownership of folders under /home/pi/RetroPie/roms directory
+###     6.) Lightgun mono config for p2 recoil configs have p1 buttons set.
+###     7.) Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms (combined with #8)
 ###     8.) Download latest Change File Config list and process entries to update bios / config / bezels etc.
 ###     9.) Update stock Mame2003-Plus and all StormedBubbles Mame cores
 ###     10.) Removes default keyboard bindings to Player 1 in retropie's global retroarch.cfg 
@@ -124,41 +124,41 @@ function get_config_changes () {
          wget $CONFURL
          tr -d '^M' <$CONF > $CONFCLEAN
 	#---------------------------------#
-        #--- Process Change File list  ---#
-        #---------------------------------#
-        if [ ! -f $CONFCLEAN ]; then
-                echo "----------ERROR!! could not download latest Master Change File from: $CONFURL exiting-------------"
-                exit 0
-        else
-                echo "Master Change File downloaded successfully, processing..."
-                IFS=$'\n'
-                for line in `cat $CONFCLEAN`
-                do
-                        src=$(echo $line | cut -d";" -f1)
-                        dst=$(echo $line | cut -d";" -f2)
-                        #--- Process each Change File Entry ---#
-                         echo "Downloading Change file: $src..."
-                         change_file_entry=$(basename $src)
-                         wget --content-disposition $src
-                        #--- Verify change file entry download ---#
-                         if [ ! -f "$change_file_entry" ]; then
-                                echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
-                         else
-                                #--- Backup system file if it exists. Install new one ---#			 
-                                if [ -f "$dst" ]; then
-                                        echo "Backing up existing file: $dst..."
-                                        /bin/cp -p $dst "$dst".bak
-                                fi
-                                /bin/cp -p $change_file_entry $dst
-                                if [ $? == 0 ]; then
-                                        echo "Change file: $change_file_entry installed successfully..."
-                                else
-                                        echo "----------ERROR!! could not install $change_file_entry into: $dst continuing-------------"
-                                fi
-                         fi
-			 
-                done
-        fi
+	#--- Process Change File list  ---#
+	#---------------------------------#
+	if [ ! -f $CONFCLEAN ]; then
+			echo "----------ERROR!! could not download latest Master Change File from: $CONFURL exiting-------------"
+			exit 0
+	else
+			echo "Master Change File downloaded successfully, processing..."
+			IFS=$'\n'
+			for line in `cat $CONFCLEAN`
+			do
+					src=$(echo $line | cut -d";" -f1)
+					dst=$(echo $line | cut -d";" -f2)
+					#--- Process each Change File Entry ---#
+					 echo "Downloading Change file: $src..."
+					 change_file_entry=$(basename $src)
+					 wget --content-disposition $src
+					#--- Verify change file entry download ---#
+					 if [ ! -f "$change_file_entry" ]; then
+							echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
+					 else
+							#--- Backup system file if it exists. Install new one ---#			 
+							if [ -f "$dst" ]; then
+									echo "Backing up existing file: $dst..."
+									/bin/cp -p $dst "$dst".bak
+							fi
+							/bin/cp -p $change_file_entry $dst
+							if [ $? == 0 ]; then
+									echo "Change file: $change_file_entry installed successfully..."
+							else
+									echo "----------ERROR!! could not install $change_file_entry into: $dst continuing-------------"
+							fi
+					 fi
+		 
+			done
+	fi
 }
 
 ##---Item 9
@@ -211,47 +211,60 @@ function remove_mame_files () {
 ##---Item 12
 ##-------------- Downloads latest Emulator Change config text file and applies to global emulators.cfg ---------------------
 function prep_update_emu_cfg () {
-	cd $TMPDIR
-	echo "Downloading latest changed Emulators Config File..."
-	wget $CHANGE_EMU_CFG_URL
-	tr -d '^M' <$CHANGE_EMU_CFG > $CHANGE_EMU_CFG_CLEAN
+	#- Create working directory for changefiles
+        if [ ! -d "$TMPDIR" ]; then
+                mkdir -p $TMPDIR
+        fi
 
-	if [ -f "$GLOBAL_EMU_CFG" ]; then
-		echo "Backing up $GLOBAL_EMU_CFG..."
-		/bin/cp -fp $GLOBAL_EMU_CFG "$GLOBAL_EMU_CFG".bak
-	else
-		echo "ERROR: Cannot modify $GLOBAL_EMU_CFG file does not exist"
-		exit 0
-	fi
+        #- Download change emulator config file and create backup of current emulators.cfg
+        echo "Cleaning out any previous change files..."
+        cd $TMPDIR
+        /bin/rm -rf $CHANGE_EMU_CFG*
+
+        echo "Downloading latest changed Emulators Config File..."
+        wget $CHANGE_EMU_CFG_URL
+        tr -d '^M' <$CHANGE_EMU_CFG > $CHANGE_EMU_CFG_CLEAN
+
+
+        if [ -f "$GLOBAL_EMU_CFG" ]; then
+                echo "Backing up $GLOBAL_EMU_CFG..."
+                /bin/cp -fp $GLOBAL_EMU_CFG "$GLOBAL_EMU_CFG".bak
+        else
+                echo "ERROR: Cannot read $GLOBAL_EMU_CFG perhaps file does not exist"
+                exit 0
+        fi
+
 }
 
 function update_emu_cfg () {
 
 	if [ -f "$GLOBAL_EMU_CFG" ]; then
 
-		echo "Configuring $GLOBAL_EMU_CFG for $1..."
+                echo "Configuring $GLOBAL_EMU_CFG for $1..."
 
-		#- $CHANGE_EMU_CFG key / values
-		key=$(echo $1 | awk '{print $1}')	
-		value=$(echo $1 | awk '{print $3}')
+                #- $CHANGE_EMU_CFG key / values
+                key=$(echo $1 | awk '{print $1}')
+                value=$(echo $1 | awk '{print $3}')
 
-		#- Get count of entry in emulators.cfg file
-		gcount=$(cat $GLOBAL_EMU_CFG  | grep ^$key | wc -l)
+                #- Get count of entry in emulators.cfg file
+                gcount=$(cat $GLOBAL_EMU_CFG  | grep ^"$key " | wc -l)
+                echo "found $gcount lines"
 
-		#- Delete all the lines if there's more than 1, modify line if just 1, and add line if 0
-		if [ $gcount -gt 1 ]; then 
-			sed -i '/^$key/d' $GLOBAL_EMU_CFG 		#THIS DOES NOT WORK, NEED TO FIX
-			echo "$1" >> $GLOBAL_EMU_CFG
-		elif [ $gcount -eq 1 ]; then
-			sed -i -e "/$key =/s/\".*\"/$value/" $GLOBAL_EMU_CFG
-		elif [ $gcount -eq 0 ]; then
-			echo "$1" >> $GLOBAL_EMU_CFG
-		else
-			echo "ERROR: Cannot read $GLOBAL_EMU_CFG"
-		fi
-	fi
+                #- Delete all the lines if there's more than 1, modify line if just 1, and add line if 0
+                if [ $gcount -gt 1 ]; then
+                        sed -i "/^$key /d" $GLOBAL_EMU_CFG              
+                        echo "$1" >> $GLOBAL_EMU_CFG
+                elif [ $gcount -eq 1 ]; then
+                        sed -i -e "/$key =/s/\".*\"/$value/" $GLOBAL_EMU_CFG
+                elif [ $gcount -eq 0 ]; then
+                        echo "$1" >> $GLOBAL_EMU_CFG
+                else
+                        echo "ERROR: Cannot read $GLOBAL_EMU_CFG"
+                fi
+        fi
 
 }
+
 
 #------------------------------------------------------------------------------------
 ###------------------------------------MAIN------------------------------------------
