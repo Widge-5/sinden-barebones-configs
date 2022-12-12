@@ -32,7 +32,7 @@ function do_everything () {
 
   ## download files ##
   echo "! ! Attempting to download zip files for "$fNAME"..."
-  wget $fDL -P "$DIR"
+  wget --timeout=5 --tries=5 $fDL -P "$DIR"
 
   ## check for a returned error from the download ##
   if [ $? -ne 0 ]; then echo "! !Failed to download "$fNAME
