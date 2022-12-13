@@ -126,7 +126,7 @@ function get_config_changes () {
          fi
          cd $TMPDIR
          echo "Downloading latest Master Change File..."
-         wget --timeout 5 $CONFURL
+         wget --timeout 15 $CONFURL
          tr -d '\r' <$CONF > $CONFCLEAN
 	#---------------------------------#
 	#--- Process Change File list  ---#
@@ -144,7 +144,7 @@ function get_config_changes () {
 					#--- Process each Change File Entry ---#
 					 echo "Downloading Change file: $src..."
 					 change_file_entry=$(basename $dst)
-					 wget --timeout 2 --content-disposition $src
+					 wget --timeout 15 --content-disposition $src
 					#--- Verify change file entry download ---#
 					 if [ ! -f "$change_file_entry" ]; then
 							echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
@@ -179,7 +179,7 @@ function update_mame_cores () {
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
 
 	echo "Downloading StormedBubbles updater..."
-	wget --timeout 5 --content-disposition https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
+	wget --timeout 15 --content-disposition https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
 
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
@@ -202,6 +202,7 @@ function update_global_config () {
         echo "Fixing Global retroarch.cfg... "
         # Fixes for P2 Recoil Auto LightgunMono2.exe.config
         update_cfg_value input_overlay_next alt $GLOBAL_CFG
+        update_cfg_value input_player1_a nul $GLOBAL_CFG
         update_cfg_value input_player1_b nul $GLOBAL_CFG
         update_cfg_value input_player1_l nul $GLOBAL_CFG
         update_cfg_value input_player1_left nul $GLOBAL_CFG
@@ -212,6 +213,8 @@ function update_global_config () {
         update_cfg_value input_player1_up nul $GLOBAL_CFG
         update_cfg_value input_player1_x nul $GLOBAL_CFG
         update_cfg_value input_player1_y nul $GLOBAL_CFG
+        update_cfg_value input_player1_gun_aux_a nul $GLOBAL_CFG
+
 }
 
 ##---Item 11
