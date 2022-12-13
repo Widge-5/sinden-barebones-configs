@@ -288,7 +288,10 @@ function main () {
 	
 	#- Script must be run as root
 	if [[ $EUID > 0 ]]; then
-	
+
+		echo "ERROR: usage: sudo ./bb9_fixes.sh"
+		exit 0
+	else	
 		vbb
 		if [ $GTG -eq 1 ]; then
 			shutdown_es
@@ -316,9 +319,7 @@ function main () {
 		else
 			echo "This script is for official BB9 images only"
 		fi
-	else
-		echo "ERROR: usage: sudo ./bb9_fixes.sh"
-		exit 0
+	exit 0
 	fi
 }
 main | tee $LOG
