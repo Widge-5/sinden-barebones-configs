@@ -126,7 +126,7 @@ function get_config_changes () {
          fi
          cd $TMPDIR
          echo "Downloading latest Master Change File..."
-         wget --timeout 15 $CONFURL
+         wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies $CONFURL
          tr -d '\r' <$CONF > $CONFCLEAN
 	#---------------------------------#
 	#--- Process Change File list  ---#
@@ -144,7 +144,7 @@ function get_config_changes () {
 					#--- Process each Change File Entry ---#
 					 echo "Downloading Change file: $src..."
 					 change_file_entry=$(basename $dst)
-					 wget --timeout 15 --content-disposition $src
+					 wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies --content-disposition $src
 					#--- Verify change file entry download ---#
 					 if [ ! -f "$change_file_entry" ]; then
 							echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
@@ -155,7 +155,7 @@ function get_config_changes () {
 									/bin/cp -p $dst "$dst".bak
 							fi
 							mkdir -p "${dst%/*}"
-							/bin/cp -p $change_file_entry $dst
+							/bin/mv -f $change_file_entry $dst # /bin/cp -p $change_file_entry $dst
 							if [ $? == 0 ]; then
 									echo "Change file: $change_file_entry installed successfully..."
 							else
@@ -179,7 +179,7 @@ function update_mame_cores () {
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
 
 	echo "Downloading StormedBubbles updater..."
-	wget --timeout 15 --content-disposition https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
+	wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies --content-disposition https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
 
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
@@ -240,7 +240,7 @@ function prep_update_emu_cfg () {
         /bin/rm -rf $CHANGE_EMU_CFG*
 
         echo "Downloading latest changed Emulators Config File..."
-        wget --timeout 5 $CHANGE_EMU_CFG_URL
+        wget --timeout 5 --no-http-keep-alive --no-cache --no-cookies $CHANGE_EMU_CFG_URL
         tr -d '\r' <$CHANGE_EMU_CFG > $CHANGE_EMU_CFG_CLEAN
 
 
