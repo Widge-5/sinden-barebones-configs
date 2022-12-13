@@ -2,7 +2,7 @@
 #########################################################################################
 ###     Authors: wiggy808 / Widge
 ###     Created: 11/2/2022
-###     Updated: 12/11/2022
+###     Updated: 12/12/2022
 ###     Notes: Fixes or adds the following for BB9:
 ###
 ###     1.) New PHO config (combined with #8)
@@ -48,6 +48,11 @@ function vbb () {
         if [[ "$val" == "90577410891f44ec5d52efaa55ffe95b" ]]; then
                 GTG=1
         fi
+}
+
+function shutdown_es () {
+	echo "Shutting Emulation Station down..."
+	pkill -9 -f "emulationstation"
 }
 
 
@@ -122,7 +127,7 @@ function get_config_changes () {
          cd $TMPDIR
          echo "Downloading latest Master Change File..."
          wget $CONFURL
-         tr -d '^M' <$CONF > $CONFCLEAN
+         tr -d '\r' <$CONF > $CONFCLEAN
 	#---------------------------------#
 	#--- Process Change File list  ---#
 	#---------------------------------#
@@ -227,7 +232,7 @@ function prep_update_emu_cfg () {
 
         echo "Downloading latest changed Emulators Config File..."
         wget $CHANGE_EMU_CFG_URL
-        tr -d '^M' <$CHANGE_EMU_CFG > $CHANGE_EMU_CFG_CLEAN
+        tr -d '\r' <$CHANGE_EMU_CFG > $CHANGE_EMU_CFG_CLEAN
 
 
         if [ -f "$GLOBAL_EMU_CFG" ]; then
@@ -274,30 +279,40 @@ function update_emu_cfg () {
 ###------------------------------------MAIN------------------------------------------
 #------------------------------------------------------------------------------------
 function main () {
-	vbb
-	if [ $GTG -eq 1 ]; then
-		update_p2_recoil
-		update_p2_recoil_auto
-		update_global_config
-		get_config_changes
-		update_mame_cores
-		update_permissions
-		remove_mame_files
+	
+	#- Script must be run as root
+	if [[ $EUID > 0 ]]; then
+	
+		vbb
+		if [ $GTG -eq 1 ]; then
+			shutdown_es
+			update_p2_recoil
+			update_p2_recoil_auto
+			update_global_config
+			get_config_changes
+			update_mame_cores
+			update_permissions
+			remove_mame_files
 
-		#- Process Change Emulators Config File
-		prep_update_emu_cfg
-		if [ -f $CHANGE_EMU_CFG_CLEAN ]; then
-			IFS=$'\n'
-			for line in `cat $CHANGE_EMU_CFG_CLEAN`
-			do
-				update_emu_cfg $line
-			done
+			#- Process Change Emulators Config File
+			prep_update_emu_cfg
+			if [ -f $CHANGE_EMU_CFG_CLEAN ]; then
+				IFS=$'\n'
+				for line in `cat $CHANGE_EMU_CFG_CLEAN`
+				do
+					update_emu_cfg $line
+				done
+			else
+				echo "ERROR: Could not download Change Emulators Config file from: $CHANGE_EMU_CFG_URL Exiting..."
+				exit 0
+			fi 
+			
 		else
-			echo "ERROR: Could not download Change Emulators Config file from: $CHANGE_EMU_CFG_URL Exiting..."
-			exit 0
-		fi 
+			echo "This script is for official BB9 images only"
+		fi
 	else
-		echo "This script is for official BB9 images only".
+		echo "ERROR: usage: sudo ./bb9_fixes.sh"
+		exit 0
 	fi
 }
 main | tee $LOG
