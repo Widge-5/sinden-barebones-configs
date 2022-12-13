@@ -45,7 +45,7 @@ CHANGE_EMU_CFG_URL="https://raw.githubusercontent.com/Widge-5/sinden-barebones-c
 
 function vbb () {
         val=$(md5sum $BBFILE | awk '{print $1}')
-        if [[ "$val" == "90577410891f44ec5d52efaa55ffe95b" ]]; then
+        if [[ "$val" == "80577410891f44ec5d52efaa55ffe95b" ]]; then
                 GTG=1
         fi
 }
@@ -143,8 +143,8 @@ function get_config_changes () {
 					dst=$(echo $line | cut -d";" -f2)
 					#--- Process each Change File Entry ---#
 					 echo "Downloading Change file: $src..."
-					 change_file_entry=$(basename $src)
-					 wget --content-disposition $src
+					 change_file_entry=$(basename $dst)
+					 wget -timeout 2 --content-disposition $src
 					#--- Verify change file entry download ---#
 					 if [ ! -f "$change_file_entry" ]; then
 							echo "----------ERROR!! could not download $change_file_entry from: $src continuing-------------"
@@ -154,6 +154,7 @@ function get_config_changes () {
 									echo "Backing up existing file: $dst..."
 									/bin/cp -p $dst "$dst".bak
 							fi
+							mkdir -p "${dst%/*}"
 							/bin/cp -p $change_file_entry $dst
 							if [ $? == 0 ]; then
 									echo "Change file: $change_file_entry installed successfully..."
@@ -169,9 +170,17 @@ function get_config_changes () {
 ##---Item 9
 ##--------------  Update stock Mame2003-Plus and all StormedBubbles Mame cores ---------------------
 function update_mame_cores () {
-	echo "Updating lr-mame2003-plus..."              
+	echo "Reinstalling USB ROM Service..."
+	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice remove
+	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice install_bin
+
+        echo "Updating lr-mame2003-plus..."              
 	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus install_bin
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
+
+	echo "Downloading StormedBubbles updater..."
+	wget --timeout=2 --content-disposition https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
+
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
 		chmod +x $SB_UPDATE
@@ -180,9 +189,6 @@ function update_mame_cores () {
 	      echo "----------ERROR!! SBupdater is not installed-------------"
 	fi
 	
-	echo "Reinstalling USB ROM Service..."
-	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice remove
-	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice install_bin
 }
 
 ##---Item 10
@@ -289,8 +295,8 @@ function main () {
 			update_p2_recoil
 			update_p2_recoil_auto
 			update_global_config
-			get_config_changes
 			update_mame_cores
+			get_config_changes
 			update_permissions
 			remove_mame_files
 
