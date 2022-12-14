@@ -68,7 +68,8 @@ function update_permissions () {
 ##-------------- LG mono config for p2 recoil configs have p1 buttons set ---------------------
 function update_button_value () {
         echo "changing ${1} to ${2} in file ${3}"
-        sed -i -e "s/\"${1}\" value=\"[0-9][0-9]\"/\"${1}\" value=\"${2}\"/" ${3}
+        #sed -i -e "s/\"${1}\" value=\"[0-9][0-9]\"/\"${1}\" value=\"${2}\"/" ${3} (doesn't seem to work)
+	sed -i -e "/.*\"${1}\"/s/value=\".*\"/value=\"${2}\"/" ${3}
 }
 
 function update_p2_recoil () {
