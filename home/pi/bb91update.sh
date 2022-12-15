@@ -7,7 +7,7 @@
 ###
 ###     1.) New PHO config (combined with #8)
 ###     2.) Storm Bubbles MAME builds (combined with #9)
-###     3.) Supermodel.ini - (combined with #8)
+###     3.) Supermodel.ini; hypinput.ini; singeinput.ini - (combined with #8)
 ###     4.) Super Russian Roulette config controls correction (combined with #8)
 ###     5.) Fix ownership of folders under /home/pi/RetroPie/roms directory
 ###     6.) Lightgun mono config for p2 recoil configs have p1 buttons set.
