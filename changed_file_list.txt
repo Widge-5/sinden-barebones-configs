@@ -1,6 +1,8 @@
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh;/home/pi/SBupdater.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/daphne/README.TXT;/home/pi/RetroPie/roms/daphne/README.TXT
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/emulators/supermodel/bin/Config/Supermodel.ini;/opt/retropie/emulators/supermodel/bin/Config/Supermodel.ini
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/daphne/hypinput.ini;/opt/retropie/configs/daphne/hypinput.ini
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/daphne/singeinput.ini;/opt/retropie/configs/daphne/singeinput.ini
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/gollygho/nvram;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/gollygho/nvram
