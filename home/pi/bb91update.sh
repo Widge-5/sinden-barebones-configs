@@ -288,7 +288,7 @@ function update_emu_cfg () {
 
 function update_splash () {
 	echo "Updating splash screen..."
-	if test -f "/home/pi/RetroPie/splashscreens/BB91.png"; then			# Test to make sure the BB9.1 splash screen was downloaded
+	if test -f "/home/pi/RetroPie/splashscreens/bb91.png"; then			# Test to make sure the BB9.1 splash screen was downloaded
 		sudo sed -i 's/\home\/pi\/RetroPie\/splashscreens\/bb9.png/\home\/pi\/RetroPie\/splashscreens\/bb91.png/g' /etc/splashscreen.list
 	else
 	      echo "----------ERROR!! BB9.1 Splashscreen is not available-------------"
