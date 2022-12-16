@@ -285,6 +285,17 @@ function update_emu_cfg () {
 }
 
 
+
+function update_splash () {
+	echo "Updating splash screen..."
+	if test -f "/home/pi/RetroPie/splashscreens/BB91.png"; then			# Test to make sure the BB9.1 splash screen was downloaded
+		sudo sed -i 's/\home\/pi\/RetroPie\/splashscreens\/bb9.png/\home\/pi\/RetroPie\/splashscreens\/bb91.png/g' /etc/splashscreen.list
+	else
+	      echo "----------ERROR!! BB9.1 Splashscreen is not available-------------"
+	fi
+}
+
+
 #------------------------------------------------------------------------------------
 ###------------------------------------MAIN------------------------------------------
 #------------------------------------------------------------------------------------
@@ -306,7 +317,7 @@ function main () {
 			get_config_changes
 			update_permissions
 			remove_mame_files
-
+			update_splash
 			#- Process Change Emulators Config File
 			prep_update_emu_cfg
 			if [ -f $CHANGE_EMU_CFG_CLEAN ]; then
