@@ -180,7 +180,7 @@ function update_mame_cores () {
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
 
 	echo "Downloading StormedBubbles updater..."
-	wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies --content-disposition https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
+	wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies --content-disposition -O $SB_UPDATE https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
 
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
