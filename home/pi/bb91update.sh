@@ -220,11 +220,17 @@ function update_global_config () {
 
 ##---Item 11
 ##-------------- Removes RA configs for ptblank2 and MAME opt files for ptblank2 and firefox ---------------------
-function remove_mame_files () {
-	echo "Removing Firefox option file and Point Blank 2 option and config file..."
-	/bin/rm -f /opt/retropie/configs/all/retroarch/config/MAME/firefox.opt
-	/bin/rm -f /opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.cfg
-	/bin/rm -f /opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.opt
+function remove_old_files () {
+	echo "Removing old Firefox option file and Point Blank 2 option and config file..."
+	/bin/rm -f "/opt/retropie/configs/all/retroarch/config/MAME/firefox.opt"
+	/bin/rm -f "/opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.cfg"
+	/bin/rm -f "/opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.opt"
+	
+	echo "Removing rogue udev rule and artifacts of pre-barebones testing..."
+	/bin/rm -f "/etc/udev/rules.d/10-usb-serial-sindenlightgun.rules"
+	/bin/rm -f "/dev/ttySindenBLACK"
+	/bin/rm -f "/dev/ttySindenBLUE"
+	/bin/rm -f "/dev/ttySindenRED"
 }
 
 ##---Item 12
@@ -316,7 +322,7 @@ function main () {
 			update_mame_cores
 			get_config_changes
 			update_permissions
-			remove_mame_files
+			remove_old_files
 			update_splash
 			#- Process Change Emulators Config File
 			prep_update_emu_cfg
