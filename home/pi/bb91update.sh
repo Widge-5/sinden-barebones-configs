@@ -173,7 +173,7 @@ function get_config_changes () {
 function update_mame_cores () {
 	echo "Reinstalling USB ROM Service..."
 	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice remove
-	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice install_bin
+	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice 	# more reliable if compiled from source so install_bin not used
 
         echo "Updating lr-mame2003-plus..."              
 	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus install_bin
