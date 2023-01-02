@@ -2,7 +2,7 @@
 #########################################################################################
 ###     Authors: wiggy808 / Widge
 ###     Created: 11/2/2022
-###     Updated: 12/12/2022
+###     Updated: 12/30/2022
 ###     Notes: Fixes or adds the following for BB9:
 ###
 ###     1.) New PHO config (combined with #8)
@@ -27,15 +27,16 @@ DAPHNE_DIR=daphne
 P2_REC_DIR=/home/pi/Lightgun/Player2recoil
 P2_RECAUTO_DIR=/home/pi/Lightgun/Player2recoilauto
 FILE=LightgunMono2.exe.config
-LOG=/tmp/bb9_fixes.log
+LOG=/var/log/bb91update.log
 BBFILE=/etc/bb-release
 GTG=0
 CURRDIR=$(pwd)
-TMPDIR=$CURRDIR/changefiles
+TMPDIR=$CURRDIR/bbchangefiles
 CONF=changed_file_list.txt
 CONFCLEAN=changed_file_list.txt.clean
 CONFURL="https://raw.githubusercontent.com/Widge-5/sinden-barebones-configs/BB-9.1/changed_file_list.txt"
 SB_UPDATE="/home/pi/SBupdater.sh"
+SB_UPDATE_URL="https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh"
 GLOBAL_CFG=/opt/retropie/configs/all/retroarch.cfg
 GLOBAL_EMU_CFG=/opt/retropie/configs/all/emulators.cfg
 CHANGE_EMU_CFG=changed_emulators_cfg.txt
@@ -52,6 +53,7 @@ function vbb () {
 
 function shutdown_es () {
 	echo "Shutting Emulation Station down..."
+	sleep 1
 	pkill -9 -f "emulationstation"
 }
 
@@ -60,6 +62,7 @@ function shutdown_es () {
 ##---------------- Several rom folders are not set to owner pi group pi -----------------------
 function update_permissions () {
 	echo "Fixing permissions on recoil configs... "
+	sleep 1
 	chown -R pi:pi $ROMDIR
 }
 
@@ -73,7 +76,8 @@ function update_button_value () {
 }
 
 function update_p2_recoil () {
-	echo "Fixing p2 recoil configs... "
+	echo "Fixing Player 2 recoil configs... "
+	sleep 1
 	# Fixes for P2 Recoil LightgunMono2.exe.config
 	update_button_value ButtonFrontRight 10 $P2_REC_DIR/$FILE
 	update_button_value ButtonRearRight 14 $P2_REC_DIR/$FILE
@@ -90,7 +94,8 @@ function update_p2_recoil () {
 }
 
 function update_p2_recoil_auto () {
-	echo "Fixing p2 recoil auto configs... "
+	echo "Fixing Player 2 recoil auto configs... "
+	sleep 1
 	# Fixes for P2 Recoil Auto LightgunMono2.exe.config
 	update_button_value ButtonFrontRight 10 $P2_RECAUTO_DIR/$FILE
 	update_button_value ButtonRearRight 14 $P2_RECAUTO_DIR/$FILE
@@ -109,6 +114,8 @@ function update_p2_recoil_auto () {
 ##---Item 8
 ##-------------- Download latest Change file for new Bezels Configs etc ---------------------
 function get_config_changes () {
+		echo "Installing new Bezels and Configs..."
+		sleep 1
         #----------------------------------------------------#
         #--- Prep work and dl of latest Change File list  ---#
         #----------------------------------------------------#
@@ -137,6 +144,7 @@ function get_config_changes () {
 			exit 0
 	else
 			echo "Master Change File downloaded successfully, processing..."
+			sleep 1
 			IFS=$'\n'
 			for line in `cat $CONFCLEAN`
 			do
@@ -172,15 +180,18 @@ function get_config_changes () {
 ##--------------  Update stock Mame2003-Plus and all StormedBubbles Mame cores ---------------------
 function update_mame_cores () {
 	echo "Reinstalling USB ROM Service..."
+	sleep 1
 	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice remove
 	/home/pi/RetroPie-Setup/retropie_packages.sh usbromservice 	# more reliable if compiled from source so install_bin not used
 
-        echo "Updating lr-mame2003-plus..."              
+    echo "Updating lr-mame2003-plus..."  
+	sleep 1
 	/home/pi/RetroPie-Setup/retropie_packages.sh lr-mame2003-plus install_bin
 										# - ADD IN SOME TEST HERE TO CHECK SUCCESS, ECHO ERROR IF FAILED. Good idea, not sure best way to do this dpkg maybe. -wiggy
 
 	echo "Downloading StormedBubbles updater..."
-	wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies --content-disposition -O $SB_UPDATE https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/SBupdater.sh
+	sleep 1
+	wget --timeout 15 --no-http-keep-alive --no-cache --no-cookies --content-disposition -O $SB_UPDATE $SB_UPDATE_URL
 
 	echo "Updating StormedBubbles mame cores..."
 	if test -f $SB_UPDATE; then			# Test to make sure the SB Update script was downloaded
@@ -194,13 +205,14 @@ function update_mame_cores () {
 
 ##---Item 10
 ##--------------  Removes default keyboard bindings to Player 1 in retropie's global retroarch.cfg ---------------------
-function update_cfg_value () {                          
+function update_cfg_value () {  
         echo "changing ${1} to ${2} in file ${3}"       
         sed -i -e "/${1} =/s/\".*\"/\"${2}\"/" ${3}
 }
 
 function update_global_config () {
         echo "Fixing Global retroarch.cfg... "
+		sleep 1
         # Fixes for P2 Recoil Auto LightgunMono2.exe.config
         update_cfg_value input_overlay_next alt $GLOBAL_CFG
         update_cfg_value input_player1_a nul $GLOBAL_CFG
@@ -222,11 +234,13 @@ function update_global_config () {
 ##-------------- Removes RA configs for ptblank2 and MAME opt files for ptblank2 and firefox ---------------------
 function remove_old_files () {
 	echo "Removing old Firefox option file and Point Blank 2 option and config file..."
+	sleep 1
 	/bin/rm -f "/opt/retropie/configs/all/retroarch/config/MAME/firefox.opt"
 	/bin/rm -f "/opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.cfg"
 	/bin/rm -f "/opt/retropie/configs/all/retroarch/config/MAME 2016/ptblank2.opt"
 	
 	echo "Removing rogue udev rule and artifacts of pre-barebones testing..."
+	sleep 1
 	/bin/rm -f "/etc/udev/rules.d/10-usb-serial-sindenlightgun.rules"
 	/bin/rm -f "/dev/ttySindenBLACK"
 	/bin/rm -f "/dev/ttySindenBLUE"
@@ -236,6 +250,8 @@ function remove_old_files () {
 ##---Item 12
 ##-------------- Downloads latest Emulator Change config text file and applies to global emulators.cfg ---------------------
 function prep_update_emu_cfg () {
+	echo "Prepping for $GLOBAL_EMU_CFG updates..."
+	sleep 1
 	#- Create working directory for changefiles
         if [ ! -d "$TMPDIR" ]; then
                 mkdir -p $TMPDIR
@@ -266,7 +282,7 @@ function update_emu_cfg () {
 	if [ -f "$GLOBAL_EMU_CFG" ]; then
 
                 echo "Configuring $GLOBAL_EMU_CFG for $1..."
-
+				sleep 1
                 #- $CHANGE_EMU_CFG key / values
                 key=$(echo $1 | awk '{print $1}')
                 value=$(echo $1 | awk '{print $3}')
@@ -294,6 +310,7 @@ function update_emu_cfg () {
 
 function update_splash () {
 	echo "Updating splash screen..."
+	sleep 1
 	if test -f "/home/pi/RetroPie/splashscreens/bb91.png"; then			# Test to make sure the BB9.1 splash screen was downloaded
 		sudo sed -i 's/\home\/pi\/RetroPie\/splashscreens\/bb9.png/\home\/pi\/RetroPie\/splashscreens\/bb91.png/g' /etc/splashscreen.list
 	else
@@ -310,11 +327,13 @@ function main () {
 	#- Script must be run as root
 	if [[ $EUID > 0 ]]; then
 
-		echo "ERROR: usage: sudo ./bb9_fixes.sh"
+		echo "ERROR: usage: sudo ./bb91update.sh"
 		exit 0
 	else	
 		vbb
 		if [ $GTG -eq 1 ]; then
+			echo "This update will take some time (10-15 minutes minimum)..."
+			sleep 2
 			shutdown_es
 			update_p2_recoil
 			update_p2_recoil_auto
@@ -337,11 +356,29 @@ function main () {
 				exit 0
 			fi 
 			
+			echo "------------- CONGRATS YOUR BAREBONES IMAGE IS UPDATED TO 9.1 !!! -------------"
+			echo "------------- YOU MUST REBOOT YOUR PI FOR CHANGES TO TAKE EFFECT. -------------"
+			echo "------------- TYPE: sudo reboot now  -------------"
+			
 		else
 			echo "This script is for official BB9 images only"
 		fi
 	exit 0
 	fi
 }
+
+#------------------------------  USER ACCEPTANCE ADDED ------------------------------------------------------
+read -p 'I have created a backup of this image and/or accept the risk of using this updater script: (y/n)' yn
+
+case $yn in
+        y|Y )
+                echo "Script Accepted..."
+        ;;
+        * )
+                echo "Cancelling..."
+        ;;
+esac
+
+
 main | tee $LOG
 cat $LOG
