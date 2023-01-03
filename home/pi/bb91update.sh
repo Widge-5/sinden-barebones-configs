@@ -217,13 +217,14 @@ function update_global_config () {
         update_cfg_value input_overlay_next alt $GLOBAL_CFG
         update_cfg_value input_player1_a nul $GLOBAL_CFG
         update_cfg_value input_player1_b nul $GLOBAL_CFG
+        update_cfg_value input_player1_down down $GLOBAL_CFG
         update_cfg_value input_player1_l nul $GLOBAL_CFG
-        update_cfg_value input_player1_left nul $GLOBAL_CFG
+        update_cfg_value input_player1_left left $GLOBAL_CFG
         update_cfg_value input_player1_r nul $GLOBAL_CFG
-        update_cfg_value input_player1_right nul $GLOBAL_CFG
+        update_cfg_value input_player1_right right $GLOBAL_CFG
         update_cfg_value input_player1_select nul $GLOBAL_CFG
         update_cfg_value input_player1_start nul $GLOBAL_CFG
-        update_cfg_value input_player1_up nul $GLOBAL_CFG
+        update_cfg_value input_player1_up up $GLOBAL_CFG
         update_cfg_value input_player1_x nul $GLOBAL_CFG
         update_cfg_value input_player1_y nul $GLOBAL_CFG
         update_cfg_value input_player1_gun_aux_a nul $GLOBAL_CFG
