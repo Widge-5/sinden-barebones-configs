@@ -231,7 +231,7 @@ function update_global_config () {
         update_cfg_value input_player1_up up $GLOBAL_CFG
         update_cfg_value input_player1_x nul $GLOBAL_CFG
         update_cfg_value input_player1_y nul $GLOBAL_CFG
-        update_cfg_value input_player1_gun_aux_a nul $GLOBAL_CFG
+        update_cfg_value input_player1_gun_aux_a c $GLOBAL_CFG
 
 }
 
