@@ -9,7 +9,7 @@
 ###     2.) Storm Bubbles MAME builds (combined with #9)
 ###     3.) Supermodel.ini; hypinput.ini; singeinput.ini - (combined with #8)
 ###     4.) Super Russian Roulette config controls correction (combined with #8)
-###     5.) Fix ownership of folders under /home/pi/RetroPie/roms directory
+###     5.) Fix ownership of folders under /home/pi/RetroPie/roms (bug) and /opt/retropie/configs/all/retroarch (post script) directories
 ###     6.) Lightgun mono config for p2 recoil configs have p1 buttons set.
 ###     7.) Add README.txt in RetroPie/roms/daphne/ showing how to create symlinks for actionmax roms (combined with #8)
 ###     8.) Download latest Change File Config list and process entries to update bios / config / bezels etc.
@@ -61,9 +61,13 @@ function shutdown_es () {
 ##---Item 5
 ##---------------- Several rom folders are not set to owner pi group pi -----------------------
 function update_permissions () {
-	echo "Fixing permissions on recoil configs... "
+	echo "Fixing permissions on $ROMDIR folders and files... "
 	sleep 1
 	chown -R pi:pi $ROMDIR
+	echo "Fixing permissions on retroarch folders and files... " #script causes this issue, since new files are owned by root instead of pi
+	sleep 1
+	chown -R pi:pi /opt/retropie/configs/all/retroarch
+	
 }
 
 
