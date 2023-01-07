@@ -1,0 +1,84 @@
+<!-- 
+Theme: Carbon-No-Meta
+version: 2.0
+author: Eric Hettervik (Rookervik)
+license: creative commons CC-BY-NC-SA
+originally based on: "simple" by nils bonenberger
+
+Element color: Search and replace colors. Do not use spaces
+	Red 	8b 00 00
+	Blue 	30 82 ce
+	Green 	50 d6 2c
+	Yellow	ef bc 0b
+	Orange	ef 71 0b
+	Purple	ac 0b ef
+	Teal	04 e9 f7
+	Pink	f5 02 97
+-->
+
+<theme>
+	<formatVersion>3</formatVersion>
+
+	<view name="system,basic,detailed,video">
+
+		<image name="background" extra="true">
+			<tile>true</tile>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./art/carbon_fiber.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="CenterFade" extra="true">
+			<tile>false</tile>
+			<size>1 0.5</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./art/centerfade.png</path>
+			<color>8b000050</color>
+		</image>
+
+		<image name="BottomBar" extra="true">
+			<tile>false</tile>
+			<size>1 0.065</size>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<path>./art/bottom.png</path>
+			<color>8b0000c0</color>
+		</image>
+
+		<image name="ControllerOverlay" extra="true">
+			<color>8b0000</color>
+		</image>
+
+	</view>
+
+	<view name="basic,detailed,video">
+
+		<textlist name="gamelist">
+			<selectedColor>8b0000</selectedColor>
+		</textlist>
+
+		<image name="bottom" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/bottom.png</path>
+			<color>8b0000</color>
+		</image> 
+
+		<image name="top" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.16</size>
+			<path>./art/top.png</path>
+			<color>8b0000</color>
+		</image> 
+
+	</view>
+
+</theme>

@@ -1,0 +1,433 @@
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/daphne/README.TXT;/home/pi/RetroPie/roms/daphne/README.TXT
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/emulators/supermodel/bin/Config/Supermodel.ini;/opt/retropie/emulators/supermodel/bin/Config/Supermodel.ini
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/daphne/hypinput.ini;/opt/retropie/configs/daphne/hypinput.ini
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/daphne/singeinput.ini;/opt/retropie/configs/daphne/singeinput.ini
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/gollygho/nvram;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/gollygho/nvram
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/nvram/ptblank2.nv;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/nvram/ptblank2.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51mx.nv;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51mx.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51.nv;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2003-plus/nvram/area51.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/sshooter/eeprom;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/sshooter/eeprom
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/policetr/eeprom;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/nvram/policetr/eeprom
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/avalnche.zip;/home/pi/RetroPie/BIOS/mame/artwork/avalnche.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/destroyr.zip;/home/pi/RetroPie/BIOS/mame/artwork/destroyr.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/seawolf.zip;/home/pi/RetroPie/BIOS/mame/artwork/seawolf.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/seawolf2.zip;/home/pi/RetroPie/BIOS/mame/artwork/seawolf2.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/artwork/skyraid.zip;/home/pi/RetroPie/BIOS/mame/artwork/skyraid.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/samples/seawolf.zip;/home/pi/RetroPie/BIOS/mame/samples/seawolf.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/BIOS/mame/samples/mmagic.zip;/home/pi/RetroPie/BIOS/mame/samples/mmagic.zip
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/policetr.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/policetr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2016/cfg/razmataz.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame2010/cfg/firefox.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/ptblank2.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2010/ptblank2.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/avalnche.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/avalnche.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/destroyr.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/destroyr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/lockon.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/lockon.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/skyraid.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/skyraid.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/tailg.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/tailg.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/topgunnr.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/topgunnr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/wildplt.cfg;/home/pi/RetroPie/roms/arcade/Lightgun_Games/mame/cfg/wildplt.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/FinalBurn%20Neo/srroulette.cfg;/opt/retropie/configs/all/retroarch/config/FinalBurn Neo/srroulette.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Project%20-%20Horned%20Owl%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Project - Horned Owl (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/avalnche.cfg;/opt/retropie/configs/all/retroarch/config/MAME/avalnche.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/bshark.cfg;/opt/retropie/configs/all/retroarch/config/MAME/bshark.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/bombbee.cfg;/opt/retropie/configs/all/retroarch/config/MAME/bombbee.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/cclownz.cfg;/opt/retropie/configs/all/retroarch/config/MAME/cclownz.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/circus.cfg;/opt/retropie/configs/all/retroarch/config/MAME/circus.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/clowns.cfg;/opt/retropie/configs/all/retroarch/config/MAME/clowns.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/cutieq.cfg;/opt/retropie/configs/all/retroarch/config/MAME/cutieq.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/destroyr.cfg;/opt/retropie/configs/all/retroarch/config/MAME/destroyr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/geebee.cfg;/opt/retropie/configs/all/retroarch/config/MAME/geebee.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/gypsyjug.cfg;/opt/retropie/configs/all/retroarch/config/MAME/gypsyjug.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/lockon.cfg;/opt/retropie/configs/all/retroarch/config/MAME/lockon.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/mmagic.cfg;/opt/retropie/configs/all/retroarch/config/MAME/mmagic.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/m79amb.cfg;/opt/retropie/configs/all/retroarch/config/MAME/m79amb.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/pc_duckh.cfg;/opt/retropie/configs/all/retroarch/config/MAME/pc_duckh.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/pc_hgaly.cfg;/opt/retropie/configs/all/retroarch/config/MAME/pc_hgaly.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/seawolf.cfg;/opt/retropie/configs/all/retroarch/config/MAME/seawolf.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/seawolf.opt;/opt/retropie/configs/all/retroarch/config/MAME/seawolf.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/seawolf2.cfg;/opt/retropie/configs/all/retroarch/config/MAME/seawolf2.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/seawolf2.opt;/opt/retropie/configs/all/retroarch/config/MAME/seawolf2.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/sharrier.cfg;/opt/retropie/configs/all/retroarch/config/MAME/sharrier.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/skyraid.cfg;/opt/retropie/configs/all/retroarch/config/MAME/skyraid.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/spacwalk.cfg;/opt/retropie/configs/all/retroarch/config/MAME/spacwalk.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/tailg.cfg;/opt/retropie/configs/all/retroarch/config/MAME/tailg.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/topgunnr.cfg;/opt/retropie/configs/all/retroarch/config/MAME/topgunnr.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME/wildplt.cfg;/opt/retropie/configs/all/retroarch/config/MAME/wildplt.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202003-Plus/starblad.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2003-Plus/starblad.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202015/swa.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2015/swa.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/firefox.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2010/firefox.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/MAME%202010/firefox.opt;/opt/retropie/configs/all/retroarch/config/MAME 2010/firefox.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/fba/launching.png;/opt/retropie/configs/fba/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/fds/launching.png;/opt/retropie/configs/fds/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/gamegear/launching.png;/opt/retropie/configs/gamegear/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/gb/launching.png;/opt/retropie/configs/gb/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/mame/launching.png;/opt/retropie/configs/mame/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/mame-libretro/launching.png;/opt/retropie/configs/mame-libretro/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/mastersystem/launching.png;/opt/retropie/configs/mastersystem/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/megadrive/launching-megadrive.png;/opt/retropie/configs/megadrive/launching-megadrive.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/megadrive/launching.png;/opt/retropie/configs/megadrive/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/msx/launching.png;/opt/retropie/configs/msx/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/nds/launching.png;/opt/retropie/configs/nds/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/neogeo/launching.png;/opt/retropie/configs/neogeo/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/nes/launching.png;/opt/retropie/configs/nes/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/ngp/launching.png;/opt/retropie/configs/ngp/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/ngpc/launching.png;/opt/retropie/configs/ngpc/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/pcengine/launching.png;/opt/retropie/configs/pcengine/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/ports/launching.png;/opt/retropie/configs/ports/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/ports/launching_template.png;/opt/retropie/configs/ports/launching_template.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/psp/launching.png;/opt/retropie/configs/psp/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/psx/launching.png;/opt/retropie/configs/psx/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/scummvm/launching.png;/opt/retropie/configs/scummvm/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/sega32x/launching.png;/opt/retropie/configs/sega32x/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/segacd/launching.png;/opt/retropie/configs/segacd/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/snes/launching.png;/opt/retropie/configs/snes/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/snes/launchingEU.png;/opt/retropie/configs/snes/launchingEU.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/zxspectrum/launching.png;/opt/retropie/configs/zxspectrum/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/3do/launching.png;/opt/retropie/configs/3do/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/arcade/launching.png;/opt/retropie/configs/arcade/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/atari2600/launching.png;/opt/retropie/configs/atari2600/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/atarijaguar/launching.png;/opt/retropie/configs/atarijaguar/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/c64/launching.png;/opt/retropie/configs/c64/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/channelf/launching.png;/opt/retropie/configs/channelf/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/daphne/launching.png;/opt/retropie/configs/daphne/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/dreamcast/launching.png;/opt/retropie/configs/dreamcast/launching.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/tic80/launching.png;/opt/retropie/configs/tic80/launching.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/alien3.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/alien3.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/alien3.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/alien3.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/area51.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/area51.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/area51mx.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/area51mx.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/avalnche.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/avalnche.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/avalnche.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/avalnche.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bang.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bang.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bbusters.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bbusters.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bloodbro.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bloodbro.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/blueshrk.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/blueshrk.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bombbee.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bombbee.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bombbee.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bombbee.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/borntofi.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/borntofi.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bronx.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bronx.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bshark.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bshark.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bshark.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bshark.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/bubbletr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/bubbletr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/carnevil.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/carnevil.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/catch22.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/catch22.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cclownz.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cclownz.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cclownz.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cclownz.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cheyenne.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cheyenne.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/chiller.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/chiller.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/circus.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/circus.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/circus.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/circus.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/claybust.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/claybust.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/claypign.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/claypign.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/clowns.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/clowns.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/clowns.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/clowns.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/combat.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/combat.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cracksht.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cracksht.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/crossbow.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/crossbow.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cutieq.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cutieq.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cutieq.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cutieq.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cryptklr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cryptklr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cybertnk.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cybertnk.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/cyclshtg.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/cyclshtg.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/dday.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/dday.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/deadeye.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/deadeye.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/deerhunt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/deerhunt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/desertgu.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/desertgu.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/destroyr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/destroyr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/destroyr.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/destroyr.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/dogpatch.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/dogpatch.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/dogpatch.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/dogpatch.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/dragngun.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/dragngun.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/duckhunt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/duckhunt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/eggventr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/eggventr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/eggventrd.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/eggventrd.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/esb.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/esb.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/firefox.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/firefox.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/firefox.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/firefox.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/g13knd.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/g13knd.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gdfs.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gdfs.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/geebee.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/geebee.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/geebee.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/geebee.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/ghlpanic.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/ghlpanic.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/ghoshunt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/ghoshunt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/golgo13.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/golgo13.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gollygho.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gollygho.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/greatgun.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/greatgun.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gunbuletw.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gunbuletw.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gunbustr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gunbustr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gunchamp.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gunchamp.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gypsyjug.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gypsyjug.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/gypsyjug.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/gypsyjug.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/hammer.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/hammer.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/hitnmiss.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/hitnmiss.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/hogalley.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/hogalley.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/invasnab.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/invasnab.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/jdredd.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/jdredd.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/jpark.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/jpark.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/le2.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/le2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lethalen.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lethalen.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lethalj.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lethalj.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lghost.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lghost.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lghostj.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lghostj.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lockload.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lockload.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lockon.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lockon.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lockon.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lockon.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/loffire.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/loffire.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lordgun.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lordgun.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/luckywld.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/luckywld.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/m79amb.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/m79amb.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/m79amb.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/m79amb.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/maxforce.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/maxforce.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/mazerbla.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/mazerbla.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/mechatt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/mechatt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/mmagic.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/mmagic.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/mmagic.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/mmagic.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/nightstr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/nightstr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/nightstr.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/nightstr.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/nstocker.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/nstocker.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/nycaptor.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/nycaptor.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/ohbakyuun.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/ohbakyuun.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/oneshot.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/oneshot.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/opwolf.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/opwolf.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/opwolf3.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/opwolf3.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/othunder.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/othunder.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/pc_duckh.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/pc_duckh.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/pc_duckh.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/pc_duckh.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/pc_wgnmn.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/pc_wgnmn.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/pc_wgnmn_16_15.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/pc_wgnmn_16_15.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/policetr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/policetr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/pong.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/pong.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/pong.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/pong.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/ppsatan.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/ppsatan.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/ptblank.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/ptblank.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/ptblank2.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/ptblank2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/rambo3.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/rambo3.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/rapidfir.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/rapidfir.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/razmataz.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/razmataz.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/rchase.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/rchase.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/revx.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/revx.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/roadrunm.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/roadrunm.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sbrkout.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sbrkout.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sbrkout.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sbrkout.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/seawolf.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/seawolf.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/seawolf.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/seawolf.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/seawolf2.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/seawolf2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/seawolf2.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/seawolf2.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sgunner.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sgunner.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sgunner2.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sgunner2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sharrier.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sharrier.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sharrier.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sharrier.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/shootgal.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/shootgal.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/shoottv.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/shoottv.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/showdown.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/showdown.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/shtngmst.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/shtngmst.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/shtngmste.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/shtngmste.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/skyraid.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/skyraid.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/skyraid.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/skyraid.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/spacegun.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/spacegun.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/spacegun.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/spacegun.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/spacwalk.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/spacwalk.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/spacwalk.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/spacwalk.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/sshooter.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/sshooter.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/starblad.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/starblad.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/starwars.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/starwars.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/swa.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/swa.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/swa.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/swa.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/tailg.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/tailg.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/tailg.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/tailg.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/targeth.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/targeth.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/term2.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/term2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/tickee.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/tickee.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/topgunnr.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/topgunnr.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/topgunnr.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/topgunnr.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/triplhnt_a.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/triplhnt_a.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/triplhnt_b.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/triplhnt_b.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/triplhnt_c.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/triplhnt_c.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/trophyh.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/trophyh.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/tshoot.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/tshoot.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/turkhunt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/turkhunt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/tutstomb.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/tutstomb.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/undrfire.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/undrfire.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/vsfdf.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/vsfdf.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/vsgshoe.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/vsgshoe.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/whodunit.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/whodunit.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/wildplt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/wildplt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/wildplt.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/wildplt.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/wschamp.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/wschamp.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/zeropnt.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/zeropnt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/zeropnt2.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/zeropnt2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/zombraid.cfg;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/zombraid.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Atari-2600.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Atari-2600.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Atomiswave.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Atomiswave.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Commodore-64.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Commodore-64.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MAME-Horizontal.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MAME-Horizontal.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Naomi.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Naomi.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Nintendo-DS.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Nintendo-DS.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Nintendo-Entertainment-System.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Nintendo-Entertainment-System.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Panasonic-3DO.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Panasonic-3DO.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Sega-CD.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Sega-CD.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Sega-Master-System.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Sega-Master-System.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Sega-Mega-Drive.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Sega-Mega-Drive.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Sega-Saturn.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Sega-Saturn.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SindenGuns.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SindenGuns.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Sony-PlayStation.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Sony-PlayStation.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Super-Nintendo-Entertainment-System.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Super-Nintendo-Entertainment-System.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/2600/Sentinel%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/2600/Sentinel (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/2600/Shooting%20Arcade%20(USA)%20(Proto).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/2600/Shooting Arcade (USA) (Proto).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Corpse%20Killer%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Corpse Killer (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Crime%20Patrol%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Crime Patrol (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Demolition%20Man%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Demolition Man (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Drug%20Wars%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Drug Wars (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Last%20Bounty%20Hunter,%20The%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Last Bounty Hunter, The (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Mad%20Dog%20II%20-%20the%20Lost%20Gold%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Mad Dog II - the Lost Gold (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Mad%20Dog%20McCree%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Mad Dog McCree (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Shootout%20at%20Old%20Tucson%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Shootout at Old Tucson (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Space%20Pirates%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Space Pirates (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/3do/Who%20Shot%20Johnny%20Rock%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/3do/Who Shot Johnny Rock (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/C64/Baby%20Blues.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/C64/Baby Blues.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/C64/High%20Noon%20Shootout%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/C64/High Noon Shootout (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/C64/Operation%20Wolf%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/C64/Operation Wolf (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/claychal.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/claychal.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/Confidential%20Mission%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/Confidential Mission (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/confmiss.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/confmiss.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/Death%20Crimson%202%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/Death Crimson 2 (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/Death%20Crimson%20OX%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/Death Crimson OX (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/deathcox.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/deathcox.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/Demolition%20Racer%20-%20No%20Exit%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/Demolition Racer - No Exit (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/hotd2.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/hotd2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/House%20of%20the%20Dead%202,%20The%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/House of the Dead 2, The (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/lupinsho.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/lupinsho.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/mazan.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/mazan.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/mok.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/mok.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/ninjaslt.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/ninjaslt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/Pop%20a%20Cap.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/Pop a Cap.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/rangrmsn.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/rangrmsn.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/RevolveR.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/RevolveR.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/sprtshot.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/sprtshot.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/Virtua%20Cop%202%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/Virtua Cop 2 (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/xtrmhnt2.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/xtrmhnt2.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Dreamcast/xtrmhunt.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Dreamcast/xtrmhunt.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Assault%20City%20(USA,%20Europe,%20Brazil)%20(Light%20Phaser).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Assault City (USA, Europe, Brazil) (Light Phaser).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Gangster%20Town%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Gangster Town (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Laser%20Ghost%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Laser Ghost (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Marksman%20Shooting%20_%20Trap%20Shooting%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Marksman Shooting _ Trap Shooting (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Marksman%20Shooting%20_%20Trap%20Shooting%20_%20Safari%20Hunt%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Marksman Shooting _ Trap Shooting _ Safari Hunt (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Missile%20Defense%203-D%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Missile Defense 3-D (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Operation%20Wolf%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Operation Wolf (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Rambo%20III%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Rambo III (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Rescue%20Mission%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Rescue Mission (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Shooting%20Gallery%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Shooting Gallery (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Space%20Gun%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Space Gun (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MasterSystem/Wanted%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MasterSystem/Wanted (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MegaDrive/Body%20Count%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MegaDrive/Body Count (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MegaDrive/Lethal%20Enforcers%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MegaDrive/Lethal Enforcers (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MegaDrive/Lethal%20Enforcers%20II%20-%20Gun%20Fighters%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MegaDrive/Lethal Enforcers II - Gun Fighters (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MegaDrive/Menacer%206-Game%20Cartridge%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MegaDrive/Menacer 6-Game Cartridge (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/MegaDrive/T2%20-%20The%20Arcade%20Game%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/MegaDrive/T2 - The Arcade Game (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Adventures%20of%20Bayou%20Billy,%20The%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Adventures of Bayou Billy, The (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Baby%20Boomer%20(USA)%20(Unl).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Baby Boomer (USA) (Unl).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Barker%20Bill_s%20Trick%20Shooting%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Barker Bill_s Trick Shooting (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Chiller%20(USA)%20(Unl).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Chiller (USA) (Unl).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Day%20Dreamin_%20Davey%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Day Dreamin_ Davey (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Duck%20Hunt%20(World).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Duck Hunt (World).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Freedom%20Force%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Freedom Force (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Gotcha%20-%20The%20Sport%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Gotcha - The Sport (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Gumshoe%20(USA,%20Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Gumshoe (USA, Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Hogan_s%20Alley%20(World).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Hogan_s Alley (World).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Laser%20Invasion%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Laser Invasion (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Lone%20Ranger,%20The%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Lone Ranger, The (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Mad%20City%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Mad City (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Mechanized%20Attack%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Mechanized Attack (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Operation%20Wolf%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Operation Wolf (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Shooting%20Range%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Shooting Range (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Super%20Russian%20Roulette.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Super Russian Roulette.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/To%20the%20Earth%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/To the Earth (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Track%20_%20Field%20II%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Track _ Field II (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/NES/Wild%20Gunman%20(World).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/NES/Wild Gunman (World).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Area_51_USA.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Area_51_USA.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Crypt%20Killer%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Crypt Killer (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Die%20Hard%20Trilogy%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Die Hard Trilogy (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Die%20Hard%20Trilogy%202%20-%20Viva%20Las%20Vegas%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Die Hard Trilogy 2 - Viva Las Vegas (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Elemental%20Gearbolt%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Elemental Gearbolt (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Extreme%20Ghostbusters%20-%20The%20Ultimate%20Invasion%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Extreme Ghostbusters - The Ultimate Invasion (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Galaxian%203%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Galaxian 3 (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Ghoul%20Panic%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Ghoul Panic (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Gunbare%20Game%20Tengoku%202%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Gunbare Game Tengoku 2 (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Gunfighter%20-%20The%20Legend%20of%20Jesse%20James%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Gunfighter - The Legend of Jesse James (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Guntu%20-%20Western%20Front%20June,%201944%20-%20Tetsu%20no%20Kioku%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Guntu - Western Front June, 1944 - Tetsu no Kioku (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Judge%20Dredd%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Judge Dredd (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Lethal%20Enforcers%20I%20_%20II%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Lethal Enforcers I _ II (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Maximum%20Force%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Maximum Force (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Mighty%20Hits%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Mighty Hits (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Mighty%20Hits%20Special%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Mighty Hits Special (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Moorhen%203%20-%20Chicken%20Chase%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Moorhen 3 - Chicken Chase (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Moorhuhn%202%20-%20Die%20Jagd%20geht%20weiter%20(Germany).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Moorhuhn 2 - Die Jagd geht weiter (Germany).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Moorhuhn%20X%20(Germany).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Moorhuhn X (Germany).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Point%20Blank%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Point Blank (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Point%20Blank%202%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Point Blank 2 (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Point%20Blank%203%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Point Blank 3 (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Policenauts%20(Japan)%20(Translated%20En)%20(Disc%201).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Policenauts (Japan) (Translated En) (Disc 1).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Policenauts%20(Japan)%20(Translated%20En)%20(Disc%202).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Policenauts (Japan) (Translated En) (Disc 2).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Policenauts%20(Japan)%20(Translated%20En).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Policenauts (Japan) (Translated En).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Project%20-%20Horned%20Owl%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Project - Horned Owl (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Puffy%20no%20P.S.%20I%20Love%20You%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Puffy no P.S. I Love You (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Rescue%20Shot%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Rescue Shot (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Resident%20Evil%20-%20Survivor%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Resident Evil - Survivor (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Serofans%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Serofans (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Star%20Wars%20-%20Rebel%20Assault%20II%20-%20The%20Hidden%20Empire%20(USA)%20(Disc%201).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Star Wars - Rebel Assault II - The Hidden Empire (USA) (Disc 1).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Star%20Wars%20-%20Rebel%20Assault%20II%20-%20The%20Hidden%20Empire%20(USA)%20(Disc%202).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Star Wars - Rebel Assault II - The Hidden Empire (USA) (Disc 2).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Star%20Wars%20-%20Rebel%20Assault%20II%20-%20The%20Hidden%20Empire%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Star Wars - Rebel Assault II - The Hidden Empire (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Time%20Crisis%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Time Crisis (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/PSX/Time%20Crisis%20-%20Project%20Titan%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/PSX/Time Crisis - Project Titan (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Saturn/Chaos%20Control%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Saturn/Chaos Control (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Saturn/Death%20Crimson%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Saturn/Death Crimson (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Saturn/House%20of%20the%20Dead,%20The%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Saturn/House of the Dead, The (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Saturn/Mechanical%20Violator%20Hakaider%20-%20Last%20Judgement%20(Japan).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Saturn/Mechanical Violator Hakaider - Last Judgement (Japan).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Saturn/Mighty%20Hits%20(Europe).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Saturn/Mighty Hits (Europe).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Saturn/Scud%20-%20The%20Disposable%20Assassin%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Saturn/Scud - The Disposable Assassin (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Corpse%20Killer%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Corpse Killer (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Crime%20Patrol%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Crime Patrol (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Lethal%20Enforcers%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Lethal Enforcers (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Lethal%20Enforcers%20II%20-%20Gun%20Fighters%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Lethal Enforcers II - Gun Fighters (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Mad%20Dog%20McCree%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Mad Dog McCree (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Mad%20Dog%20McCree%20II%20-%20The%20Lost%20Gold%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Mad Dog McCree II - The Lost Gold (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Snatcher%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Snatcher (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SegaCD/Who%20Shot%20Johnny%20Rock%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SegaCD/Who Shot Johnny Rock (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Battle%20Clash%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Battle Clash (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Bazooka%20Blitzkrieg%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Bazooka Blitzkrieg (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Hunt%20for%20Red%20October,%20The%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Hunt for Red October, The (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Lamborghini%20American%20Challenge%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Lamborghini American Challenge (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Lemmings%202%20-%20The%20Tribes%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Lemmings 2 - The Tribes (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Lethal%20Enforcers%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Lethal Enforcers (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/M.A.C.S.%20Basic%20Rifle%20Marksmanship%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/M.A.C.S. Basic Rifle Marksmanship (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Metal%20Combat%20-%20Falcon_s%20Revenge%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Metal Combat - Falcon_s Revenge (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Operation%20Thunderbolt%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Operation Thunderbolt (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Shien_s%20Revenge%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Shien_s Revenge (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Super%20Scope%206%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Super Scope 6 (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/T2%20-%20The%20Arcade%20Game%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/T2 - The Arcade Game (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Tin%20Star%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Tin Star (USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/X%20Zone%20(Japan,%20USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/X Zone (Japan, USA).cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/SNES/Yoshi_s%20Safari%20(USA).cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/SNES/Yoshi_s Safari (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/Genesis%20Plus%20GX/Corpse%20Killer%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Genesis Plus GX/Corpse Killer (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/Genesis%20Plus%20GX/Who%20Shot%20Johnny%20Rock%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Genesis Plus GX/Who Shot Johnny Rock (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/emulationstation/themes/carbon-nometa-custom/carbon.xml;/opt/retropie/configs/all/emulationstation/themes/carbon-nometa-custom/carbon.xml
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/Cosmic%20Commando.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/Cosmic Commando.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/GLORIOUS%2012TH.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/GLORIOUS 12TH.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/HIGH%20NOON%20SHOOT.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/HIGH NOON SHOOT.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/HIGH%20NOON%20SHOOT.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/HIGH NOON SHOOT.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/Lightgun_Games.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/Lightgun_Games.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/Lightgun_Games.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/SHOOTING%20GALLERY.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/SHOOTING GALLERY.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/baby%20blues.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/baby blues.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/indian%20attack.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/indian attack.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/operation%20thunderbolt.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/operation thunderbolt.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/operation%20thunderbolt.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/operation thunderbolt.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/operation%20wolf.cfg;/opt/retropie/configs/all/retroarch/config/VICE x64/operation wolf.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/operation%20wolf.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/operation wolf.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/shootin%20putin.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/shootin putin.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/all/retroarch/config/VICE%20x64/starbase%20defence.opt;/opt/retropie/configs/all/retroarch/config/VICE x64/starbase defence.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/opt/retropie/configs/c64/retroarch.cfg;/opt/retropie/configs/c64/retroarch.cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/splashscreens/bb91.png;/home/pi/RetroPie/splashscreens/bb91.png
