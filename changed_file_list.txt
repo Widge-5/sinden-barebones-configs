@@ -1,1 +1,2 @@
 https://github.com/DirtBagXon/model3emu-code-sinden/raw/arm/supermodel3.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/supermodel3.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Shootout%20at%20Old%20Tucson%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Opera/Shootout at Old Tucson (USA).cfg
