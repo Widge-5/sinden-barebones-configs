@@ -20,3 +20,6 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/triplhnt.opt;/opt/retropie/configs/all/retroarch/config/MAME/triplhnt.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/zeropnt2.opt;/opt/retropie/configs/all/retroarch/config/MAME/zeropnt2.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/BIOS/mame2016/cheat.7z;/home/pi/RetroPie/BIOS/mame2016/cheat.7z
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202015/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/MAME 2015/Lightgun_Games.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202016/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/MAME 2016/Lightgun_Games.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202016/razmataz.opt;/opt/retropie/configs/all/retroarch/config/MAME 2016/razmataz.opt
