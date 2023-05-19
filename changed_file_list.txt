@@ -23,4 +23,7 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202015/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/MAME 2015/Lightgun_Games.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202016/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/MAME 2016/Lightgun_Games.opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202016/razmataz.opt;/opt/retropie/configs/all/retroarch/config/MAME 2016/razmataz.opt
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/emulators/supermodel/bin/NVRAM/lamachin.nv;/opt/retropie/configs/supermodel3/NVRAM/lamachin.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/supermodel3/NVRAM/lamachin.nv;/opt/retropie/configs/supermodel3/NVRAM/lamachin.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/supermodel3/NVRAM/oceanhuna.nv;/opt/retropie/configs/supermodel3/NVRAM/oceanhuna.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/supermodel3/NVRAM/lostwsga.nv;/opt/retropie/configs/supermodel3/NVRAM/lostwsga.nv
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/supermodel3/NVRAM/swtrilgy.nv;/opt/retropie/configs/supermodel3/NVRAM/swtrilgy.nv
