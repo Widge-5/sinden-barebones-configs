@@ -2,3 +2,20 @@ https://github.com/DirtBagXon/model3emu-code-sinden/raw/arm/supermodel3.sh;/home
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Shootout%20at%20Old%20Tucson%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Opera/Shootout at Old Tucson (USA).cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Genesis%20Plus%20GX/Lightgun_Games_SMS.cfg;/opt/retropie/configs/all/retroarch/config/Genesis Plus GX/Lightgun_Games_SMS.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/BIOS/mame/cheat/cheat.7z;/home/pi/RetroPie/BIOS/mame/cheat/cheat.7z
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/MAME/Lightgun_Games.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/blueshrk.opt;/opt/retropie/configs/all/retroarch/config/MAME/blueshrk.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/claybust.opt;/opt/retropie/configs/all/retroarch/config/MAME/claybust.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/desertgu.opt;/opt/retropie/configs/all/retroarch/config/MAME/desertgu.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/esb.opt;/opt/retropie/configs/all/retroarch/config/MAME/esb.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/lethalj.opt;/opt/retropie/configs/all/retroarch/config/MAME/lethalj.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/pballpup.opt;/opt/retropie/configs/all/retroarch/config/MAME/pballpup.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/roadrunm.opt;/opt/retropie/configs/all/retroarch/config/MAME/roadrunm.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/seawolf.opt;/opt/retropie/configs/all/retroarch/config/MAME/seawolf.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/seawolf2.opt;/opt/retropie/configs/all/retroarch/config/MAME/seawolf2.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/starwars.opt;/opt/retropie/configs/all/retroarch/config/MAME/starwars.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/swclone.opt;/opt/retropie/configs/all/retroarch/config/MAME/swclone.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/tmntmutm.opt;/opt/retropie/configs/all/retroarch/config/MAME/tmntmutm.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/triplhna.opt;/opt/retropie/configs/all/retroarch/config/MAME/triplhna.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/triplhnb.opt;/opt/retropie/configs/all/retroarch/config/MAME/triplhnb.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/triplhnt.opt;/opt/retropie/configs/all/retroarch/config/MAME/triplhnt.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/zeropnt2.opt;/opt/retropie/configs/all/retroarch/config/MAME/zeropnt2.opt
