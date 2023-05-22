@@ -1,4 +1,5 @@
 https://github.com/DirtBagXon/model3emu-code-sinden/raw/arm/supermodel3.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/supermodel3.sh
+https://github.com/RetroPie/RetroPie-Setup/raw/0bcf01d46926de78609980e8661da5c971189ab8/scriptmodules/emulators/hypseus.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/hypseus.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Shootout%20at%20Old%20Tucson%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Opera/Shootout at Old Tucson (USA).cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Genesis%20Plus%20GX/Lightgun_Games_SMS.cfg;/opt/retropie/configs/all/retroarch/config/Genesis Plus GX/Lightgun_Games_SMS.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/BIOS/mame/cheat/cheat.7z;/home/pi/RetroPie/BIOS/mame/cheat/cheat.7z
