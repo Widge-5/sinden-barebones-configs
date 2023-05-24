@@ -30,3 +30,5 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/supermodel3/NVRAM/swtrilgy.nv;/opt/retropie/configs/supermodel3/NVRAM/swtrilgy.nv
 https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/lethalen.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/lethalen.png
 https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/le2.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/le2.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME%202016/razmataz.cfg;/opt/retropie/configs/all/retroarch/config/MAME 2016/razmataz.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBezels/razmataz.png;/opt/retropie/configs/all/retroarch/overlay/ArcadeBezels/razmataz.png
