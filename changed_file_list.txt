@@ -35,3 +35,5 @@ https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/ArcadeBe
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2;/home/pi/RetroPie/roms/arcade/Lightgun_Games/sprtshot.zip.nvmem2
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/PUAE/Lightgun_Games.cfg;/opt/retropie/configs/all/retroarch/config/PUAE/Lightgun_Games.cfg
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Commodore-Amiga.png;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Commodore-Amiga.png
+https://github.com/Widge-5/sinden-barebones-overlays/raw/BB-9.1/overlay/GameBezels/Commodore-Amiga.cfg;/opt/retropie/configs/all/retroarch/overlay/GameBezels/Commodore-Amiga.cfg
