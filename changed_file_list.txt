@@ -91,3 +91,10 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/mastersystem/Lightgun_Games_SMS/shootagem.zip;/home/pi/RetroPie/roms/mastersystem/Lightgun_Games_SMS/shootagem.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/nes/Lightgun_Games/FruitShinobi.zip;/home/pi/RetroPie/roms/nes/Lightgun_Games/FruitShinobi.zip
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/FCEUmm/FruitShinobi.opt;/opt/retropie/configs/all/retroarch/config/FCEUmm/FruitShinobi.opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/LightgunMono.exe;/home/pi/Lightgun/Application/LightgunMono.exe
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/LightgunMono.exe.config;/home/pi/Lightgun/Application/LightgunMono.exe.config
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/LightgunMono2.exe;/home/pi/Lightgun/Application/LightgunMono2.exe
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/LightgunMono2.exe.config;/home/pi/Lightgun/Application/LightgunMono2.exe.config
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/libCameraInterface.so;/home/pi/Lightgun/Application/libCameraInterface.so
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/libSdlInterface.so;/home/pi/Lightgun/Application/libSdlInterface.so
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/test.bmp;/home/pi/Lightgun/Application/test.bmp
