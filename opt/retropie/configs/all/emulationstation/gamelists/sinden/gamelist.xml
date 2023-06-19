@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Start All Guns.sh</path>
+		<name>Start All Guns</name>
+	</game>
+	<game>
+		<path>./Start Guns 1&amp;2.sh</path>
+		<name>Start Guns 1&amp;2</name>
+	</game>
+	<game>
+		<path>./Start Guns 3&amp;4.sh</path>
+		<name>Start Guns 3&amp;4</name>
+	</game>
+	<game>
+		<path>./Stop All Guns.sh</path>
+		<name>Stop All Guns</name>
+	</game>
+	<game>
+		<path>./Test Guns 1&amp;2.sh</path>
+		<name>Test Guns 1&amp;2</name>
+	</game>
+	<game>
+		<path>./Test Guns 3&amp;4.sh</path>
+		<name>Test Guns 3&amp;4</name>
+	</game>
+</gameList>
