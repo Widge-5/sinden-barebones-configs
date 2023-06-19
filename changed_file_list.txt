@@ -98,3 +98,11 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/libCameraInterface.so;/home/pi/Lightgun/Application/libCameraInterface.so
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/libSdlInterface.so;/home/pi/Lightgun/Application/libSdlInterface.so
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/Lightgun/Application/test.bmp;/home/pi/Lightgun/Application/test.bmp
+
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Start%20All%20Guns.sh;/home/pi/RetroPie/roms/sinden/.new/Start All Guns.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Start%20Guns%201%262.sh;/home/pi/RetroPie/roms/sinden/.new/Start Guns 1&2.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Start%20Guns%203%264.sh;/home/pi/RetroPie/roms/sinden/.new/Start Guns 3&4.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Stop%20All%20Guns.sh;/home/pi/RetroPie/roms/sinden/.new/Stop All Guns.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Test%20Guns%201%262.sh;/home/pi/RetroPie/roms/sinden/.new/Test Guns 1&2.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Test%20Guns%203%264.sh;/home/pi/RetroPie/roms/sinden/.new/Test Guns 3&4.sh
+
