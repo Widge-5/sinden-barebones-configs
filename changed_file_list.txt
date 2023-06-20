@@ -105,3 +105,4 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Test%20Guns%201%262.sh;/home/pi/RetroPie/roms/sinden/.new/Test Guns 1&2.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/sinden/Test%20Guns%203%264.sh;/home/pi/RetroPie/roms/sinden/.new/Test Guns 3&4.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/emulationstation/gamelists/sinden/gamelist.xml;/opt/retropie/configs/all/emulationstation/gamelists/sinden/gamelist.xml
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-flycast-StormedBubbles.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-flycast-StormedBubbles.sh
