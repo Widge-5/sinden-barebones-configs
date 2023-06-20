@@ -4,13 +4,7 @@
   sudo rm /tmp/LightgunMono* -f
 } &> /dev/null
 
-
-DIR=/home/pi/Lightgun/Application
-utilscfg="/home/pi/Lightgun/utils/widgeutils.cfg"
-
-/home/pi/Lightgun/utils/testgrid.sh "$DIR"
-
-cd $DIR
+cd /home/pi/Lightgun/Application
 sudo mono LightgunMono.exe sdl 30
 
 # ON EXIT #
@@ -21,4 +15,3 @@ else
   sleep 3
 fi
 clear
-
