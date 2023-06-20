@@ -1,4 +1,5 @@
 arcade_bombbee = "lr-mame-StormedBubbles"
 arcade_topgunnr = "lr-mame-StormedBubbles"
 dreamcast_RevolveR = "lr-flycast-StormedBubbles"
+dreamcast_revolver = "lr-flycast-StormedBubbles"
 dreamcast_bloop = "lr-flycast-StormedBubbles"
