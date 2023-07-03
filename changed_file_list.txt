@@ -109,3 +109,13 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-
 https://github.com/Widge-5/Sinden_Lightgun_Autostart/raw/ver2/autostart_install.sh;/home/pi/autostart_install.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Moorhuhn%20X%20(Germany).opt;/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Moorhuhn X (Germany).opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-pcsx-rearmed-moorhen.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-pcsx-rearmed-moorhen.sh
+
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_crime-patrol_full.png;/opt/retropie/configs/daphne/bezels/bezel_crime-patrol_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/;/opt/retropie/configs/daphne/bezels/bezel_drug-wars_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_freedom-fighter_full.png;/opt/retropie/configs/daphne/bezels/bezel_freedom-fighter_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_last-bounty-hunter_full.png;/opt/retropie/configs/daphne/bezels/bezel_last-bounty-hunter_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_mad-dog-2_full.png;/opt/retropie/configs/daphne/bezels/bezel_mad-dog-2_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_mad-dog_full.png;/opt/retropie/configs/daphne/bezels/bezel_mad-dog_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_platoon_full.png;/opt/retropie/configs/daphne/bezels/bezel_platoon_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_space-pirates_full.png;/opt/retropie/configs/daphne/bezels/bezel_space-pirates_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_who-shot-johnny-rock_full.png;/opt/retropie/configs/daphne/bezels/bezel_who-shot-johnny-rock_full.png
