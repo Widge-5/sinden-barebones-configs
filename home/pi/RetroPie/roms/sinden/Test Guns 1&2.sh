@@ -4,6 +4,8 @@
   sudo rm /tmp/LightgunMono* -f
 } &> /dev/null
 
+utilscfg="/home/pi/Lightgun/utils/widgeutils.cfg"
+
 cd /home/pi/Lightgun/Application
 sudo mono LightgunMono.exe sdl 30
 
