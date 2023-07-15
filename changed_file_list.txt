@@ -120,3 +120,4 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_space-pirates_full.png;/opt/retropie/configs/daphne/bezels/bezel_space-pirates_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_who-shot-johnny-rock_full.png;/opt/retropie/configs/daphne/bezels/bezel_who-shot-johnny-rock_full.png
 https://github.com/DirtBagXon/actionmax-pi/raw/main/actionmax.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/actionmax.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-opera-StormedBubbles.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-opera-StormedBubbles.sh
