@@ -111,7 +111,7 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-pcsx-rearmed-moorhen.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-pcsx-rearmed-moorhen.sh
 
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_crime-patrol_full.png;/opt/retropie/configs/daphne/bezels/bezel_crime-patrol_full.png
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/;/opt/retropie/configs/daphne/bezels/bezel_drug-wars_full.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/bezel_drug-wars_full.png;/opt/retropie/configs/daphne/bezels/bezel_drug-wars_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_freedom-fighter_full.png;/opt/retropie/configs/daphne/bezels/bezel_freedom-fighter_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_last-bounty-hunter_full.png;/opt/retropie/configs/daphne/bezels/bezel_last-bounty-hunter_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_mad-dog-2_full.png;/opt/retropie/configs/daphne/bezels/bezel_mad-dog-2_full.png
