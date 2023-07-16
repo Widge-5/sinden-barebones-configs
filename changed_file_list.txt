@@ -123,4 +123,4 @@ https://github.com/DirtBagXon/actionmax-pi/raw/main/actionmax.sh;/home/pi/RetroP
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-opera-StormedBubbles.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-opera-StormedBubbles.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/mad%20dog%20ii.cfg;/opt/retropie/configs/all/retroarch/config/Opera/mad dog ii.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/mad%20dog%20ii.opt;/opt/retropie/configs/all/retroarch/config/Opera/mad dog ii.opt
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/splashscreens/bb91.png;/home/pi/RetroPie/splashscreens/bb91.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.1/home/pi/RetroPie/splashscreens/bb92.png;/home/pi/RetroPie/splashscreens/bb92.png
