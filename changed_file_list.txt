@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/Widge-5/sinden-barebones-configs/BB-9.2/home/pi/RetroPie/splashscreens/BB92.png;/home/pi/RetroPie/splashscreens/bb92.png
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/splashscreens/BB92.png;/home/pi/RetroPie/splashscreens/bb92.png
 
 https://github.com/DirtBagXon/model3emu-code-sinden/raw/arm/supermodel3.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/supermodel3.sh
 https://github.com/RetroPie/RetroPie-Setup/raw/0bcf01d46926de78609980e8661da5c971189ab8/scriptmodules/emulators/hypseus.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/hypseus.sh
