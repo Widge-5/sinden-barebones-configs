@@ -1,6 +1,6 @@
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/splashscreens/bb92.png;/home/pi/RetroPie/splashscreens/bb92.png
 https://github.com/DirtBagXon/model3emu-code-sinden/raw/arm/supermodel3.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/supermodel3.sh
 https://github.com/RetroPie/RetroPie-Setup/raw/0bcf01d46926de78609980e8661da5c971189ab8/scriptmodules/emulators/hypseus.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/hypseus.sh
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Shootout%20at%20Old%20Tucson%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Opera/Shootout at Old Tucson (USA).cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Genesis%20Plus%20GX/Lightgun_Games_SMS.cfg;/opt/retropie/configs/all/retroarch/config/Genesis Plus GX/Lightgun_Games_SMS.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/BIOS/mame/cheat/cheat.7z;/home/pi/RetroPie/BIOS/mame/cheat/cheat.7z
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/MAME/Lightgun_Games.opt;/opt/retropie/configs/all/retroarch/config/MAME/Lightgun_Games.opt
@@ -109,7 +109,6 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-
 https://github.com/Widge-5/Sinden_Lightgun_Autostart/raw/ver2/autostart_install.sh;/home/pi/autostart_install.sh
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Moorhuhn%20X%20(Germany).opt;/opt/retropie/configs/all/retroarch/config/PCSX-ReARMed/Moorhuhn X (Germany).opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-pcsx-rearmed-moorhen.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-pcsx-rearmed-moorhen.sh
-
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_crime-patrol_full.png;/opt/retropie/configs/daphne/bezels/bezel_crime-patrol_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/bezel_drug-wars_full.png;/opt/retropie/configs/daphne/bezels/bezel_drug-wars_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_freedom-fighter_full.png;/opt/retropie/configs/daphne/bezels/bezel_freedom-fighter_full.png
@@ -120,7 +119,22 @@ https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/conf
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_space-pirates_full.png;/opt/retropie/configs/daphne/bezels/bezel_space-pirates_full.png
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/daphne/bezels/bezel_who-shot-johnny-rock_full.png;/opt/retropie/configs/daphne/bezels/bezel_who-shot-johnny-rock_full.png
 https://github.com/DirtBagXon/actionmax-pi/raw/main/actionmax.sh;/home/pi/RetroPie-Setup/scriptmodules/emulators/actionmax.sh
+
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-opera-StormedBubbles.sh;/home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-opera-StormedBubbles.sh
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/arcade/Lightgun_Games/opera/per_game/Shootout%20at%20Old%20Tucson%20(USA).0.srm;/home/pi/RetroPie/roms/arcade/Lightgun_Games/opera/per_game/Shootout at Old Tucson (USA).0.srm
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/roms/arcade/Lightgun_Games/opera/per_game/mad%20dog%20ii.0.srm;/home/pi/RetroPie/roms/arcade/Lightgun_Games/opera/per_game/mad dog ii.0.srm
+
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Corpse%20Killer%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Corpse Killer (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Crime%20Patrol%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Crime Patrol (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Demolition%20Man%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Opera/Demolition Man (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Demolition%20Man%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Demolition Man (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Drug%20Wars%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Drug Wars (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Last%20Bounty%20Hunter%2C%20The%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Last Bounty Hunter, The (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Mad%20Dog%20II%20-%20The%20Lost%20Gold%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Mad Dog II - The Lost Gold (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Mad%20Dog%20McCree%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Mad Dog McCree (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Shootout%20at%20Old%20Tucson%20(USA).cfg;/opt/retropie/configs/all/retroarch/config/Opera/Shootout at Old Tucson (USA).cfg
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Shootout%20at%20Old%20Tucson%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Shootout at Old Tucson (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Space%20Pirates%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Space Pirates (USA).opt
+https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/Who%20Shot%20Johnny%20Rock%20(USA).opt;/opt/retropie/configs/all/retroarch/config/Opera/Who Shot Johnny Rock (USA).opt
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/mad%20dog%20ii.cfg;/opt/retropie/configs/all/retroarch/config/Opera/mad dog ii.cfg
 https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/opt/retropie/configs/all/retroarch/config/Opera/mad%20dog%20ii.opt;/opt/retropie/configs/all/retroarch/config/Opera/mad dog ii.opt
-https://github.com/Widge-5/sinden-barebones-configs/raw/BB-9.2/home/pi/RetroPie/splashscreens/bb92.png;/home/pi/RetroPie/splashscreens/bb92.png
